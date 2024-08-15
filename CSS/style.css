@@ -1,0 +1,98 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.header-section-bg {
+    background-image: url("../Images/background-image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-section-navbar {
+    padding: 50px 0 0 50px;
+}
+
+.navbar-section-logo-text {
+    margin-top: 16px;
+}
+
+.navbar-section-logo-text h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.navbar-section-logo-text h3 span:first-child {
+    color: #FFF;
+}
+
+.navbar-section-logo-text h3 span:last-child {
+    color: #CB8461;
+}
+
+.navbar-section-menu-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-section-menu-link ul {
+    list-style: none;
+}
+
+.navbar-section-menu-link {
+    display: flex;
+    padding-top: 13px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-section-menu-link ul {
+    list-style: none;
+    text-align: center;
+}
+
+.navbar-section-menu-link ul li {
+    display: inline-block;
+    margin: 0 22px;
+}
+
+.navbar-section-menu-link ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    line-height: 35px;
+    transition: 0.3s;
+}
+
+.navbar-secion-menu-link ul li:hover a {
+    font-weight: 700;
+}
+
+.navbar-section-with-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-section-with-buttons a {
+    text-decoration: none;
+    color: #FFF;
+    padding-left: 50px;
+}
+
+.navbar-section-with-buttons a:last-child {
+    background-color: #CB8461;
+    width: 160px;
+    height: 49px;
+    border-radius: 8px;
+    padding: 12px 0 0 48px;
+    margin-left:30px;
+}
+
+.header-section-hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
