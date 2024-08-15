@@ -328,3 +328,166 @@ small.header-hero-section-text-area-date-text {
     font-size: 10px;
     line-height: 15px;
 }
+
+.trusted-company-section-text-area {
+    text-align: center;
+}
+
+section.trusted-company-section {
+    margin: 100px 0 190px 0;
+}
+
+.trusted-company-section-text-area h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+.trusted-company-section-text-area h2 span {
+    color: #CB8461;
+}
+
+.trusted-company-section-text-area p {
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 400;
+    width: 42%;
+    margin-left: 29%;
+    color:#808080;
+}
+
+.trusted-company-section-image-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trusted-company-section-image-area {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.new-year-bg {
+    background-image: url("../Images/new-year-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.new-year-discount-total-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
+
+.new-year-discount-total-area-information-texts {
+    padding: 40px;
+}
+
+.new-year-discount-total-area-information-texts h4 {
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.new-year-discount-total-area-information-texts h4 span {
+    color: #CB8461;
+}
+
+.new-year-discount-total-area-information-texts a {
+    color: #FFF;
+    text-decoration: none;
+    background: #245D51;
+    width: 231px !important;
+    height: 60px !important;
+    padding: 15px 25px 15px 25px;
+    border-radius: 4px;
+    margin-top: 7px;
+}
+
+.new-year-discount-total-area-image {
+    position: relative;
+}
+
+.new-year-discount-total-area-image img {
+    position: absolute;
+    left: 155px;
+    bottom: -297px;
+}
+
+.new-year-discount-total-area-small-images {
+    position: relative;
+}
+
+.new-year-discount-total-area-small-images {
+    position: relative;
+}
+
+.new-year-discount-total-area-small-image-1 {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    background: #14463A;
+    top: 67px;
+    left: 112px;
+    z-index:9;
+}
+
+.new-year-discount-total-area-small-image-1-side-image-1 {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    border: 1px solid #14463A;
+    z-index: 8;
+    top: 73px;
+    left: 118px;
+}
+
+.new-year-discount-total-area-small-image-2 {
+    position: absolute;
+    width: 35.88px;
+    height: 35.88px;
+    background-color: #CB8461;
+    rotate: 15deg;
+    right: 143px;
+    top: 64px;
+    z-index: 9;
+}
+
+.new-year-discount-total-area-small-image-2-side-image-2 {
+    position: absolute;
+    width: 35.88px;
+    height: 35.88px;
+    border: 1px solid #CB8461;
+    rotate: 15deg;
+    z-index: 8;
+    right: 149px;
+    top: 67px;
+}
+
+.new-year-discount-total-area-small-image-3 {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    background: #347366;
+    rotate: 15deg;
+    right: 173px;
+    top: 207px;
+    z-index:9;
+}
+
+.new-year-discount-total-area-small-image-3-side-image-3 {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    border: 1px solid #347366;
+    rotate: 15deg;
+    right: 179px;
+    z-index: 8;
+    top: 209px;
+}
