@@ -1100,7 +1100,7 @@ a.subscribe-course-btn {
 }
 .subscribe-with-us-section-title {
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 35px;
 }
 .subscribe-with-us-section-title h2 {
     font-size: 36px;
@@ -1159,26 +1159,29 @@ a.most-popular-btn {
     line-height: 42px;
     font-weight: 700;
     color: #2C2C2C;
+    transition: 0.3;
 }
 .subscribe-with-us-section-box-description-text p {
     font-size: 16px;
     color: #808080;
     line-height: 25px;
     width: 222px;
+    transition: 0.3s;
 }
 .subscribe-with-us-section-box-menu ul {
     list-style: none;
     /* margin: 0; */
     /* padding: 0; */
 }
-.subscribe-with-us-section-box-menu ul li {
-    list-style: none;
-}
+
 .subscribe-with-us-section-box-menu ul li a {
     text-decoration: none;
     color: #2C2C2C;
     font-size: 16px;
     line-height: 24px;
+    margin-bottom:5px;
+    display:inline-block;
+    margin-bottom: 8px;
 }
 a.choose-plan-btn {
     text-decoration: none;
@@ -1193,15 +1196,49 @@ a.choose-plan-btn {
     color: #FDC2A5;
     border-radius: 66px;
     opacity: 0.6;
-    margin-left: 16px;
+    margin-left: 12px;
 }
 .subscribe-with-us-section-box:hover {
     background-color: #245d51;
     border-radius:8px;
+    margin-bottom:10px;
+    box-shadow:5px 10px 5px #808080;
 }
 .subscribe-with-us-section-box:hover a.most-popular-btn {
     opacity:1;
     background-color: #CB8461;
     color: #FFF;
-
+}
+.subscribe-with-us-section-box:hover .subscribe-with-us-section-box-price h6 {
+    color:#FFF;
+    padding-bottom:5px;
+}
+.subscribe-with-us-section-box:hover .subscribe-with-us-section-box-price h6 span{
+    color:#FFF;
+    padding-bottom:5px;
+}
+.subscribe-with-us-section-box:hover .subscribe-with-us-section-box-description-text h6 {
+    color: #FFF;
+    padding-bottom:5px;
+}
+.subscribe-with-us-section-box:hover .subscribe-with-us-section-box-description-text p {
+    color: #FFF;
+}
+.subscribe-with-us-section-box:hover .subscribe-with-us-section-box-menu ul li a {
+    color: #FFF;
+}
+.subscribe-with-us-section-box:hover a.choose-plan-btn {
+    background-color:#CB8461;
+    color: #FFF;
+    opacity:1;
+    margin-bottom:5px;
+}
+.subscribe-with-us-section-box-menu ul li{
+    position:relative;
+}
+.subscribe-with-us-section-box-menu ul li::before {
+    position: absolute;
+    content: url(../Images/check-circle-1.png);
+    left: -27px;
+    top: 3px;
 }
