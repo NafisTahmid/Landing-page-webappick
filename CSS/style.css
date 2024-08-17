@@ -574,10 +574,9 @@ section.trusted-company-section {
 }
 .popular-courses-of-week-section-box {
     background-color: #FFF;
-    width: 31.9%;
+    width: 99.4%;
     border-radius: 17px;
-    margin-left: 34%;
-    height: 75vh;
+    height: 71vh;
 }
 .popular-courses-of-week-section-box h5 {
     font-size: 24px;
@@ -727,48 +726,6 @@ section.trusted-company-section {
 .play-button i.fa {
     font-size: 30px;
     color: #16CCA6;
-}
-.popular-courses-of-week-section-box-image-sub-images-rectangle-image {
-    position: absolute;
-    width: 35.88px;
-    height: 35.88px;
-    /* border-radius: 50%; */
-    background-color: #CB8461;
-    z-index: 99;
-    border-radius: 1px;
-    rotate: 15deg;
-    left: -324px;
-    top: -78px;
-}
-.popular-courses-of-week-section-box-image-sub-images-rectangle-image-side-image {
-    position: absolute;
-    width: 35.88px;
-    height: 35.88px;
-    border: 1px solid #CB8461;
-    left: 50px;
-    border-radius: 1px;
-    rotate: 15deg;
-    left: -331px;
-    top: -76px;
-}
-.popular-courses-of-week-section-box-image-sub-images-circular-image {
-    position: absolute;
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    background: #EB9F79;
-    right: -298px;
-    top: -104px;
-}
-.popular-courses-of-week-section-box-image-sub-images-circular-image-side-image {
-    position: absolute;
-    width: 17px;
-    height: 17px;
-    border-radius: 50%;
-    background-color: #CD6B3B;
-    right: -301px;
-    top: -96px;
-    opacity: 0.8;
 }
 section.let-us-skill-shoot-section {
     margin-top: 125px;
@@ -1343,4 +1300,124 @@ input[type="email"] {
     letter-spacing: -0.5px;
     padding: 5px 0 0 20px;
     margin-left: 15px;
+}
+.popular-courses-of-week-section-main-side-images{
+    position:relative;
+}
+.popular-courses-of-week-section-box-image-sub-images-rectangle-image {
+    position: absolute;
+    width: 35.88px;
+    height: 35.88px;
+    background: #CB8461;
+    rotate: 15deg;
+    top: 136px;
+    left: 101px;
+}
+.popular-courses-of-week-section-box-image-sub-images-rectangle-image-side-image {
+    position: absolute;
+    width: 35.88px;
+    height: 35.88px;
+    border: 1px solid #CB8461;
+    rotate: 15deg;
+    top: 140px;
+    left: 94px;
+}
+.popular-courses-of-week-section-box-image-sub-images-circular-image {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #EB9F79;
+    right: 128px;
+    top: 108px;
+}
+.popular-courses-of-week-section-box-image-sub-images-circular-image-side-image{
+    position: absolute;
+    width: 22px;
+    height:22px;
+    border-radius:50%;
+    background-color:#CD6B3B;
+}
+.popular-courses-of-week-section-box-image-sub-images-circular-image-side-image {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: #CD6B3B;
+    right: 126px;
+    top: 116px;
+    opacity: 0.69;
+}
+.popular-courses-of-week-section-arrow-buttons {
+    position: relative;
+}
+.popular-courses-of-week-section-arrow-button-1-bg-image {
+    position: absolute;
+    width: 67px;
+    height: 67.36px;
+    background: #F5F5F5;
+    border-radius: 50%;
+    top: 463px;
+    left: -36px;
+}
+.popular-courses-of-week-section-arrow-button-1-bg-side-image {
+    position: absolute;
+    width: 53.28px;
+    height: 53px;
+    border-radius: 50%;
+    background: #FFF;
+    top: 470px;
+    left: -29px;
+    transition:0.3s;
+}
+.popular-courses-of-week-section-arrow-button-left-arrow {
+    position: absolute;
+    content: "\2190";
+    z-index: 9999999999999;
+}
+.popular-courses-of-week-section-arrow-button-1-bg-side-image::after {
+    position: absolute;
+    content: "\2190";
+    font-size: 25px;
+    left: 13px;
+    top: 6px;
+}
+.popular-courses-of-week-section-arrow-button-2-bg-image {
+    width: 67px;
+    height: 67.36px;
+    border-radius: 50%;
+    background-color: #F5F5F5;
+    position: absolute;
+    right: 0;
+    top: 468px;
+    right: -32px;
+}
+.popular-courses-of-week-section-arrow-button-2-bg-side-image {
+    width: 53px;
+    height: 53.28px;
+    position: absolute;
+    border-radius: 50%;
+    background: #FFF;
+    right: -25px;
+    top: 475px;
+    transition:0.3s;
+}
+.popular-courses-of-week-section-arrow-button-2-bg-side-image::after {
+    position: absolute;
+    content: "\2192";
+    font-size: 25px;
+    top: 4px;
+    left: 14px;
+    transition:0.3s;
+}
+.popular-courses-of-week-section-arrow-button-1-bg-side-image:hover,
+.popular-courses-of-week-section-arrow-button-2-bg-side-image:hover
+ {
+    background-color:  #245D51;
+}
+
+.popular-courses-of-week-section-arrow-button-1-bg-side-image:hover::after,
+.popular-courses-of-week-section-arrow-button-2-bg-side-image:hover::after
+ {
+    color: #FFF; /* Change arrow color to white on hover */
 }
