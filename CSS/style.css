@@ -1528,3 +1528,8 @@ input[type="email"] {
     right: 124px;
     bottom: 127px;
 }
+.owl-carousel .owl-item img {
+    /* display: block; */
+    width: auto;
+    margin:0 auto;
+}
