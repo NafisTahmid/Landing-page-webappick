@@ -1099,12 +1099,14 @@ a.subscribe-course-btn {
     margin-top: 120px;
 }
 .subscribe-with-us-section-title,
-.what-they-say-title {
+.what-they-say-title,
+.footer-section-title {
     text-align: center;
     margin-bottom: 35px;
 }
 .subscribe-with-us-section-title h2,
-.what-they-say-title h2 {
+.what-they-say-title h2,
+.footer-section-title h2 {
     font-size: 36px;
     line-height: 54px;
     font-weight: 600;
@@ -1117,7 +1119,8 @@ a.subscribe-course-btn {
 }
 
 .subscribe-with-us-section-title p,
-.what-they-say-title p {
+.what-they-say-title p,
+.footer-section-title p {
     color: #808080;
     font-size: 16px;
     line-height: 35px;
@@ -1145,7 +1148,6 @@ a.most-popular-btn {
     padding:7px 12px 7px 12px;
     border-radius:15px;
     margin-left:130px;
-
 }
 .subscribe-with-us-section-box-price h6 {
     font-size: 16px;
@@ -1174,10 +1176,7 @@ a.most-popular-btn {
 }
 .subscribe-with-us-section-box-menu ul {
     list-style: none;
-    /* margin: 0; */
-    /* padding: 0; */
 }
-
 .subscribe-with-us-section-box-menu ul li a {
     text-decoration: none;
     color: #2C2C2C;
@@ -1252,7 +1251,8 @@ a.choose-plan-btn {
     background-position:center;
     background-repeat:no-repeat;
 }
-.what-they-say-title {
+.what-they-say-title,
+.footer-section-title {
     margin: 75px 0 30px 0;
 }
 .say-slider-section-box {
@@ -1295,4 +1295,52 @@ a.choose-plan-btn {
 section.what-they-say-section {
     margin-top: 80px;
     height: 90vh;
+}
+.footer-bg {
+    background-image: url("../Images/footer-bg.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer-section-title h2 {
+    color:#FFF;
+    font-weight:400;
+}
+.footer-section-title p {
+    color:#FFFFFF;
+    font-weight:400;
+}
+.footer-section-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 65px 0;
+}
+input[type="email"] {
+    width: 380px;
+    height: 60px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: none;
+    outline: none;
+    opacity: 0.8;
+    color: #2C2C2C;
+    padding-left: 15px;
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: 400;
+}
+.footer-section-form a {
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 160px;
+    height: 60px;
+    background: #CC8663;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    padding: 5px 0 0 20px;
+    margin-left: 15px;
 }
