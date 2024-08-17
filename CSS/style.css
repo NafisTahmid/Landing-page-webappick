@@ -1098,22 +1098,26 @@ a.subscribe-course-btn {
 .subscribe-with-us-section {
     margin-top: 120px;
 }
-.subscribe-with-us-section-title {
+.subscribe-with-us-section-title,
+.what-they-say-title {
     text-align: center;
     margin-bottom: 35px;
 }
-.subscribe-with-us-section-title h2 {
+.subscribe-with-us-section-title h2,
+.what-they-say-title h2 {
     font-size: 36px;
     line-height: 54px;
     font-weight: 600;
     color: #2C2C2C;
 }
 
-.subscribe-with-us-section-title h2 span {
+.subscribe-with-us-section-title h2 span,
+.what-they-say-title h2 span {
     color: #CB8461;
 }
 
-.subscribe-with-us-section-title p {
+.subscribe-with-us-section-title p,
+.what-they-say-title p {
     color: #808080;
     font-size: 16px;
     line-height: 35px;
@@ -1241,4 +1245,54 @@ a.choose-plan-btn {
     content: url(../Images/check-circle-1.png);
     left: -27px;
     top: 3px;
+}
+.what-they-say-bg {
+    background-image: url("../Images/what-they-say-bg.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.what-they-say-title {
+    margin: 75px 0 30px 0;
+}
+.say-slider-section-box {
+    text-align: center;
+}
+.star-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0 20px 0;
+}
+.star-section img {
+    padding-right: 10px;
+}
+.say-slider-section-box h5 {
+    font-size: 24px;
+    line-height: 36px;
+    color: #2C2C2C;
+    font-weight: 400;
+}
+.say-slider-section-box p {
+    text-align: center;
+    color: #808080;
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 400;
+    width: 78%;
+    margin-left: 12%;
+
+}
+.say-slider-section-box {
+    text-align: center;
+    width: 413px;
+    height: 346px;
+    margin: 0 auto;
+    background-color: #FFF;
+    border-radius:10px;
+    padding: 55px 0 0 0;
+}
+section.what-they-say-section {
+    margin-top: 80px;
+    height: 90vh;
 }
