@@ -6,6 +6,9 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position:relative;
 }
 .header-section-navbar {
     padding: 50px 0 0 50px;
@@ -76,10 +79,7 @@
     margin-left:30px;
 }
 .header-section-hero-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 100px;
+
     color: #FFF;
 }
 .header-hero-section-total-text-area-heading-text h1 {
@@ -146,7 +146,7 @@ a.instagram-icon{
     bottom: 171px;
     left: 31%;
 }
-.header-hero-section-main-image {
+/* .header-hero-section-main-image {
     position: relative;
 }
 .header-hero-section-main-image img {
@@ -154,9 +154,10 @@ a.instagram-icon{
     left: 20%;
     top:5%;
     z-index:999;
-}
+} */
 header.header-section {
-    height: 102.5vh;
+    height: 100%;
+    width: 100%;
 }
 .header-hero-section-small-images-area {
     position: relative;
@@ -167,15 +168,7 @@ header.header-section {
     height: 46.72px;
     background: #F88C3D;
     border-radius: 8px;
-    top: 191px;
-}
-.header-hero-section-small-image-1 {
-    position: absolute;
-    width: 46.72px;
-    height: 46.72px;
-    background: #F88C3D;
-    border-radius: 8px;
-    top: 46px;
+    top: -463px;
     rotate: 15deg;
     left: 140px;
 }
@@ -196,7 +189,7 @@ header.header-section {
     border-radius: 8px;
     rotate: -4.98deg;
     right: 26%;
-    top: 139px;
+    top: -413px;
 }
 .header-hero-section-small-image-2::after {
     position: absolute;
@@ -214,8 +207,8 @@ header.header-section {
     background: #23BDEE;
     rotate: 15deg;
     border-radius: 8px;
-    right: 24%;
-    top: 445px;
+    right: 17%;
+    top: -115px;
 }
 .header-hero-section-small-image-3::after {
     position: absolute;
@@ -227,7 +220,7 @@ header.header-section {
     left: 7px;
 }
 .header-hero-section-side-image-area {
-    position: relative;
+    position: absolute;
     background: #FFF;
     width: 288px;
     height: 103px;
@@ -238,6 +231,7 @@ header.header-section {
     align-items: center;
     padding: 24px 35px;
     z-index: 9999;
+    top: -287px;
 }
 .header-hero-section-side-image img {
     height: 40px;
@@ -287,7 +281,7 @@ a.header-hero-section-text-area-button {
     align-items: center;
     padding: 24px 35px;
     z-index: 9999;
-    top: 246px;
+    top: -272px;
 }
 small.header-hero-section-text-area-date-text {
     position: absolute;
@@ -336,17 +330,13 @@ section.trusted-company-section {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
- 
-
+    width:100%;
+    height:100%;
 }
 .new-year-discount-total-area {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 7%;
-}
-.new-year-discount-total-area-information-texts {
-    padding: 40px;
 }
 .new-year-discount-total-area-information-texts h4 {
     font-size: 36px;
@@ -370,14 +360,14 @@ section.trusted-company-section {
     margin-top: 7px;
     margin-left: 24px;
 }
-.new-year-discount-total-area-image {
+/* .new-year-discount-total-area-image {
     position: relative;
 }
 .new-year-discount-total-area-image img {
     position: absolute;
     left: 155px;
     bottom: -295px;
-}
+} */
 .new-year-discount-total-area-small-images {
     position: relative;
 }
@@ -389,8 +379,8 @@ section.trusted-company-section {
     width: 49px;
     height: 49px;
     background: #14463A;
-    top: 67px;
-    left: 112px;
+    top: -225px;
+    left: 128px;
     z-index:9;
 }
 .new-year-discount-total-area-small-image-1-side-image-1 {
@@ -399,8 +389,8 @@ section.trusted-company-section {
     height: 49px;
     border: 1px solid #14463A;
     z-index: 8;
-    top: 73px;
-    left: 118px;
+    top: -218px;
+    left: 135px;
 }
 .new-year-discount-total-area-small-image-2 {
     position: absolute;
@@ -408,8 +398,8 @@ section.trusted-company-section {
     height: 35.88px;
     background-color: #CB8461;
     rotate: 15deg;
-    right: 143px;
-    top: 64px;
+    right: 109px;
+    top: -236px;
     z-index: 9;
 }
 .new-year-discount-total-area-small-image-2-side-image-2 {
@@ -419,8 +409,8 @@ section.trusted-company-section {
     border: 1px solid #CB8461;
     rotate: 15deg;
     z-index: 8;
-    right: 149px;
-    top: 67px;
+    right: 117px;
+    top: -232px;
 }
 .new-year-discount-total-area-small-image-3 {
     position: absolute;
@@ -428,9 +418,10 @@ section.trusted-company-section {
     height: 37px;
     background: #347366;
     rotate: 15deg;
-    right: 173px;
-    top: 207px;
+    z-index: 8;
+    top: -81px;
     z-index:9;
+    right: 155px;
 }
 .new-year-discount-total-area-small-image-3-side-image-3 {
     position: absolute;
@@ -438,9 +429,9 @@ section.trusted-company-section {
     height: 37px;
     border: 1px solid #347366;
     rotate: 15deg;
-    right: 179px;
+    right: 163px;
     z-index: 8;
-    top: 209px;
+    top: -77px;
 }
 .new-year-discount-total-area-small-image-4 {
     position: absolute;
@@ -448,8 +439,8 @@ section.trusted-company-section {
     width: 22px;
     height: 22px;
     border-radius: 50%;
-    top: 237px;
-    right: 438px;
+    top: -80px;
+    right: 437px;
     z-index: 9;
 }
 .new-year-discount-total-area-small-image-4-side-image-4 {
@@ -458,20 +449,22 @@ section.trusted-company-section {
     width: 17px;
     background: #CD6B3B;
     border-radius: 50%;
-    top: 245px;
-    right: 432px;
-    z-index:8;
+    top: -71px;
+    right: 434px;
+    z-index: 10;
+    opacity: 0.69;
 }
 .new-year-discount-total-area-small-image-5 {
     position: absolute;
     content: url(../Images/Intersect-1.png);
     right: -1px;
-    top: 236px;
+    top: -61px;
 }
 .new-year-discount-total-area-small-image-6 {
     position:absolute;
     content:url("../Images/Intersect-2.png");
     right: 1234px;
+    bottom: 372px;
 }
 .exist-full-section {
     margin-top: 115px;
@@ -589,20 +582,16 @@ section.trusted-company-section {
 }
 .popular-courses-of-week-section-box {
     background-color: #FFF;
-    width: 99.4%;
+    width: 100%;
     border-radius: 17px;
-    height: 71vh;
+    height: 100%;
 }
 .popular-courses-of-week-section-box h5 {
     font-size: 24px;
     line-height: 36px;
     font-weight: 600;
-    width: 78%;
-    padding-left: 21px;
 }
-.popular-courses-of-week-section-box-users-instructor-info {
-    padding-left: 19px;
-}
+
 .popular-courses-of-week-section-box-users {
     margin-top: 26px;
 }
@@ -617,7 +606,6 @@ section.trusted-company-section {
 }
 .popular-courses-of-week-section-box-users-instructor-info-text {
     position: relative;
-    padding-left: 8px;
 }
 
 .popular-courses-of-week-section-box-users-instructor-info-text small {
@@ -629,7 +617,6 @@ section.trusted-company-section {
 }
 .popular-courses-of-week-section-box-users-participants-info {
     position: relative;
-    padding-left: 80px;
 }
 .popular-courses-of-week-section-box-users-participants-info-text p {
     position: absolute;
@@ -655,24 +642,13 @@ section.trusted-company-section {
     top: 18px;
     position: absolute;
 }
-.popular-courses-of-week-section-box-users-participants-info-text {
-    padding-left: 3px;
-}
-.popular-courses-of-week-section-last-area {
+
+/* .popular-courses-of-week-section-last-area {
     display: flex;
     justify-content: space-around;
     padding-top: 27px;
-    position: relative;
-}
-.popular-courses-of-week-section-last-area a {
-    text-decoration: none;
-    color: #FFF;
-    background-color: #245D51;
-    width: 103px;
-    height: 54px;
-    border-radius: 10px;
-    padding: 13px 0 0 17px;
-}
+    
+} */
 
 .popular-courses-of-week-section-last-area a {
     text-decoration: none;
@@ -1550,4 +1526,27 @@ input[type="email"] {
 }
 img.responsive-menu-image{
     display:none;
+}
+.popular-courses-of-week-button-area a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #FFF;
+    background: #245D51;
+    width: 25%;
+    height: 50%;
+    border-radius: 8px;
+    padding: 12px 15px 12px 25px;
+}
+.popular-courses-of-week-button-area h6 {
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #808080;
+}
+.popular-courses-of-week-button-area h6 span {
+    font-size: 24px;
+    color: #2B2B2B;
+    font-weight: 600;
 }

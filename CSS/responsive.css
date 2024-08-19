@@ -1,5 +1,29 @@
-@media only screen and (min-width:992px) and (max-width:120px){
-
+@media only screen and (min-width:992px) and (max-width:1200px){
+    .header-hero-section-main-image {
+        margin-top: 138px;
+    }
+    .header-hero-section-text-area-vector-image {
+        position: absolute;
+        bottom: 171px;
+        left: 31%;
+    }
+    .header-hero-section-small-image-1 {
+        left: 41px;
+    }
+    .header-hero-section-small-image-2 {
+        right: 17%;
+        
+    }
+    .header-hero-section-small-image-3 {
+        right: 2%;     
+    }
+    .new-year-discount-total-area-small-image-5 {
+        top: -60px;
+    }
+    .new-year-discount-total-area-small-image-6 {
+        bottom: 372px;
+        left: -479px;
+    }
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
@@ -14,6 +38,7 @@
         display: none;
      
     }
+  
     img.responsive-menu-image{
         display:inline-block;
     }
@@ -119,8 +144,24 @@
     .trusted-company-section-image-5 {
         margin-top: 20px;
     }
+    .navbar-section-logo-text h3 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+    }
 }
 
-@media only screen and (min-width:480px) and (max-width:767px) {
-
+@media only screen and (max-width:576px) {
+    .navbar-section-logo-text h3 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .navbar-section-menu-link {
+        display: none;
+    }
+    .navbar-section-with-buttons {
+        display: none;
+     
+    }
 }
