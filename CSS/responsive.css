@@ -162,6 +162,161 @@
     }
     .navbar-section-with-buttons {
         display: none;
-     
+    }
+    .header-hero-section-main-image img {
+        display: none !important;
+    }
+    .header-hero-section-small-image-1 {
+        top: -376px;
+        left: 7px;
+    }
+    .header-hero-section-small-image-3 {
+        left: 7px;
+        top: -83px;
+    }
+    .header-hero-section-small-image-2 {
+        right: 7px;
+        top: -59px;
+    }
+    .new-year-discount-total-area-image img {
+        display: none !important;
+    }
+    section.trusted-company-section {
+        margin: 52px 0 72px 0;
+    }
+    .new-year-discount-total-area-small-image-1{
+        display:none;
+    }
+    .new-year-discount-total-area-small-image-1-side-image-1{
+        display:none !important;
+    }
+    .new-year-discount-total-area-small-image-2{
+        display:none;
+    }
+    .new-year-discount-total-area-small-image-2-side-image-2{
+        display:none;
+    }
+    .new-year-discount-total-area-small-image-3{
+        display:none;
+    }
+    .new-year-discount-total-area-small-image-3-side-image-3{
+        display:none;
+    }
+    .new-year-discount-total-area-small-image-6 {
+        position: absolute;
+        content: url(../Images/Intersect-2.png);
+        top: -279px;
+    }
+    .new-year-discount-total-area-information-texts {
+        margin-bottom: 228px !important;
+        text-align: center;
+        padding-right: 16rem;
+        width: 144%;
+    }
+    .new-year-bg {
+        height: 85vh;
+    }
+    .new-year-discount-total-area-information-texts h4 {
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: 600;
+        margin-bottom: 30px;
+        padding-left: 22px;
+        width: 105%;
+    }
+    .new-year-discount-total-area-small-image-5 {
+        right: 44px;
+        top: -189px;
+    }
+    .new-year-discount-total-area-small-image-6 {
+        top: -415px;
+        left: 44px;
+    }
+    .new-year-discount-total-area-small-image-4{
+        top: -175px;
+        left: 72px;
+    }
+    .new-year-discount-total-area-small-image-4-side-image-4 {
+        top: -166px;
+        left: 81px;
+    }
+    .exist-full-section {
+        margin-top: 40px;
+    }
+    .exist-answer-section-text-area {
+        text-align: center;
+    }
+    .exist-answer-section-text-area h2 {
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: 600;
+    }
+    .exist-answer-section-text-area p {
+        font-size: 12px;
+        line-height: 30px;
+        color: #808080;
+        width: 100%;
+    }
+    .exist-answer-review-area-text small {
+        position: absolute;
+        font-size: 10px;
+        line-height: 15px;
+        font-weight: 400;
+        top: 62%;
+    }
+    .exist-answer-section-horizontal-line {
+        margin-top: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .exist-answer-section-update-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .exist-answer-section-review-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .exist-answer-section-update-area-updated-material-text,
+    .exist-answer-section-update-area-member-join-text {
+        text-align: center;
+    }
+    .exist-answer-section-update-area-updated-material-text h5,
+    .exist-answer-section-update-area-member-join-text h5 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .exist-answer-section-update-area-updated-material-text small,
+    .exist-answer-section-update-area-member-join-text small {
+        font-size: 10px;
+        line-height: 30px;
+    }
+    .exist-full-section-negative-reviews {
+        margin-top: 2.5rem;
+    }
+    .material-limitations-full-area img,
+    .unprofessional-mentor-full-area img,
+    .video-quality-full-area img,
+    .high-price-full-area img {
+        margin: 0 auto;
+    }
+    .material-limitations-full-area,
+    .unprofessional-mentor-full-area,
+    .video-quality-full-area,
+    .high-price-full-area {
+        text-align: center;
+    }
+    .material-limitations-full-area h6, .unprofessional-mentor-full-area h6, .video-quality-full-area h6, .high-price-full-area h6{
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .material-limitations-full-area p, .unprofessional-mentor-full-area p, .video-quality-full-area p, .high-price-full-area p {
+        font-size: 12px;
+        line-height: 30px;
+        color: #808080;
+        width: 100%;
     }
 }
