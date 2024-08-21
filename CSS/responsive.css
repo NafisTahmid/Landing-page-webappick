@@ -319,4 +319,208 @@
         color: #808080;
         width: 100%;
     }
+    .popular-courses-of-week-section-text-area {
+        padding: 50px 0 0 0;
+    }
+    .popular-courses-of-week-section-text-area h2 {
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: 600;
+    }
+    .popular-courses-of-week-section-text-area p {
+        font-size: 12px;
+        line-height: 30px;
+        font-weight: 400;
+        width:100%;
+        margin:0;
+    }
+    .popular-courses-of-week-section-box-image-sub-images-rectangle-image {
+        width: 26.88px;
+        height: 26.88px;
+        bottom: 105px;
+        left: 5px;
+    }
+    .popular-courses-of-week-section-box-image-sub-images-rectangle-image-side-image {
+        position: absolute;
+        width: 26.88px;
+        height: 26.88px;
+        border: 1px solid #CB8461;
+        rotate: 15deg;
+        bottom: 101px;
+        left: -2px;
+    }
+    .popular-courses-of-week-section-box-image-sub-images-circular-image {
+        right: 0px;
+        top: -118px;
+    }
+    .popular-courses-of-week-section-box-image-sub-images-circular-image-side-image {
+        right: -2px;
+        top: -109px;
+    }
+    .popular-courses-of-week-section-box-image-sub-images-transparent-button {
+        top: 151px;
+        left: 33%;
+    }
+    .popular-courses-of-week-section-box-image-sub-images-play-button {
+        top: 163px;
+        left: 37%;
+    }
+    .play-button {
+        top: 82px;
+        left: 44%;
+    }
+    .popular-courses-of-week-section-box h5 {
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 600;
+    }
+    .popular-courses-of-week-section-box-users-instructor-info-text p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .popular-courses-of-week-section-box-users-instructor-info-text small {
+        position: absolute;
+        font-size: 7px;
+        line-height: 10.5px;
+        color: #808080;
+        bottom: 5px;
+    }
+    .popular-courses-of-week-section-box-users-participants-info-text p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .popular-courses-of-week-section-box-users {
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+    }
+    .popular-courses-of-week-button-area a {
+        width: 93px;
+        height: 50px;
+        padding: 12px 15px 12px 20px;
+    }
+    .popular-courses-of-week-button-area h6 span {
+        font-size: 16px;
+        color: #2B2B2B;
+        font-weight: 600;
+        line-height: 24px;
+    }
+    .popular-courses-of-week-button-area h6 {
+        font-size: 8px;
+        line-height: 30px;
+
+    }
+
+    .popular-courses-of-week-section-arrow-button-2-bg-side-image {
+        width: 53px;
+        height: 53.28px;
+        position: absolute;
+        border-radius: 50%;
+        background: #FFF;
+        right: -25px;
+        top: 475px;
+        transition: 0.3s;
+        z-index: 999;
+    }
+    .let-us-skill-shoot-section-about h2{
+        font-size:20px;
+        line-height:30px;
+        padding-left: 0;
+    }
+    .let-us-skill-shoot-section-about h2 span{
+        font-size:20px;
+        line-height:30px;
+    }
+    .let-us-skill-shoot-section-text-area-paragraph p {
+        font-size: 12px;
+        line-height: 30px;
+        color: #808080;
+        width: 100%;
+        padding-left: 0;
+    }
+    .let-us-skill-shoot-section-text-area-paragraph p:first-child{
+        width:100%;
+        padding-left:0;
+    }
+    .let-us-skill-shoot-section-text-area-paragraph p:last-child{
+        width:100%;
+        padding-left:0;
+    }
+    .let-us-skill-shoot-section-text-area-vector-image img {
+        position: absolute;
+        left: 20px;
+        bottom: 0px;
+        display: none;
+    }
+    .let-us-skill-shoot-section-image-area {
+        display: none;
+    }
+    .let-us-skill-shoot-section-about {
+        margin-top: 0px;
+    }
+    .let-us-skill-shoot-section-text-area-vector-image img {
+        width: 109px;
+        margin-left: 40px !important;
+    }
+    section.let-us-skill-shoot-section {
+        margin-top: 60px;
+    }
+    .let-us-skill-shoot-section-about-bullet-paragraph-1,
+    .let-us-skill-shoot-section-about-bullet-paragraph-2 {
+        margin-left: 0px;
+    
+    }
+    .let-us-skill-shoot-section-about-bullet-paragraphs {
+        margin-top: 25px;
+    }
+    .let-us-skill-shoot-section-about-bullet-paragraph-1 p,
+    .let-us-skill-shoot-section-about-bullet-paragraph-2 p {
+        font-size: 12px;
+        line-height: 30px;
+        font-weight: 600;
+        color: #2C2C2C;
+        padding-left: 57px;
+    }
+    .let-us-skill-shoot-section-about-bullet-paragraphs {
+        margin-top: 25px;
+        width: 137%;
+        padding-left: 0;
+    }
+    .let-us-skill-shoot-section-about-bullet-paragraph-1 p:last-child,
+    .let-us-skill-shoot-section-about-bullet-paragraph-2 p:last-child
+     {
+        padding-left: 66px;
+        color: #2C2C2C;
+        margin-left:0px;
+    }
+    .let-us-skill-shoot-section-text-area-side-image-area-image-2 {
+        bottom: 109px;
+        right: 109px;
+    }
+    .let-us-skill-shoot-section-about-bullet-paragraph-1,
+    .let-us-skill-shoot-section-about-bullet-paragraph-2 {
+        margin-left: 0px;
+        width: 152%;
+    }
+    .let-us-skill-shoot-section-text-area-side-image-area-image-1 {
+        bottom: 110px;
+        left: -4px;
+    }
+    .let-us-skill-shoot-section-text-area-side-image-area-image-3 {
+        bottom: 20px;
+        left: -2px;
+    }
+    .let-us-skill-shoot-section-text-area-side-image-area-image-4 {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #eb9f79;
+        right: 105px;
+        bottom: 22px;
+    }
+    .let-us-skill-shoot-section-about-bullet-paragraph-2 p:last-child{
+        width:32%;
+    }
+  
 }
