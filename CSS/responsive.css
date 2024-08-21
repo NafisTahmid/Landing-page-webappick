@@ -215,7 +215,8 @@
         width: 100%;
     }
     .new-year-bg {
-        height: 85vh;
+        height: 42vh !important;
+        border-radius: 10px;
     }
     .new-year-discount-total-area-information-texts h4 {
         font-size: 16px;
@@ -224,13 +225,14 @@
         margin-bottom: 30px;
         padding-left: 22px;
         width: 100%;
+        padding-top:27px;
     }
     .new-year-discount-total-area-small-image-5 {
         right: 44px;
         top: -189px;
     }
     .new-year-discount-total-area-small-image-6 {
-        top: -415px;
+        top: -425px !important;
         left: 44px;
     }
     .new-year-discount-total-area-small-image-4{
@@ -526,15 +528,14 @@
         width: 33%;
     }
     .improve-your-skills-section-text-area h3 {
-        font-size: 13px;
+        font-size: 18px;
         font-weight: 600;
-        line-height: 20px;
+        line-height: 27px;
         color: #2C2C2C;
         padding-top: 64px;
     }
     .improve-your-skills-section-sub-image-2 {
-        bottom: 238px;
-        left: 1px;
+        bottom: 78px !important;
     }
     .improve-your-skills-section-text-area {
         padding:0;
@@ -542,22 +543,23 @@
         text-align: center;
     }
     a.join-now-btn {
-        width: 144px;
-        height: 31px !important;
+        width: 115px;
+        display:block;
+        height: 51px !important;
         background: #CB8461;
         border-radius: 4px;
-        padding: 5px 25px 15px 45px;
-        font-size: 10px !important;
-        line-height: 20px !important;
+        padding: 14px 0 0 12px;
+        font-size: 14px !important;
+        line-height: 21px !important;
         font-weight: 600;
-        margin-left: 2rem;
+        margin: 0 auto;
     }
     a.subscribe-course-btn {
-        font-size: 10px;
-        line-height: 20px;
-        width: 144px;
-        height: 31px !important;
-        padding: 5px 31px 12px 44px;
+        font-size: 14px;
+        line-height: 21px;
+        width: 176px;
+        height: 51px !important;
+        padding: 15px 2px 0px 3px;
         margin-right: 1rem;
     }
     .improve-your-skills-section-button-area {
@@ -603,8 +605,8 @@
         margin-left:0% !important;
     }
     .subscribe-with-us-section-box-price h6 span {
-        font-size: 18px;
-        line-height: 27px;
+        font-size: 12px;
+        line-height: 30px;
         font-weight: 700;
         color: #2C2C2C;
     }
@@ -634,8 +636,9 @@
     .subscribe-with-us-section-box-menu ul li a {
         text-decoration: none;
         color: #2C2C2C;
-        font-size: 10px;
-        line-height: 18px;
+        font-size: 12px;
+        line-height: 30px;
+        font-weight:400;
         margin-bottom: 5px;
         display: inline-block;
         margin-bottom:0px !important;
@@ -847,10 +850,7 @@
     .let-us-skill-shoot-section-about-bullet-paragraph-1, .let-us-skill-shoot-section-about-bullet-paragraph-2 {
         width: 208% !important;
     }
-    .new-year-discount-total-area-small-image-6 {
-        top: -397px !important;
-        left: 60px !important;
-    }
+    
     .new-year-discount-total-area-small-image-5 {
         right: 60px;
         top: -223px;
@@ -890,5 +890,70 @@
         top: 51px;
         right: 45px;
     }
-  
+    .new-year-discount-total-area-information-texts {
+        margin-bottom: 228px !important;
+        text-align: center;
+        padding:0px;
+
+    }
+    .new-year-discount-total-area-small-image-6 {
+        top: -399px !important;
+        left: 2px !important;
+    }
+    .new-year-discount-total-area-small-image-5 {
+        right: 2px;
+        top: -228px;
+    }
+    .header-hero-section-total-text-area-paragraph-text p{
+        width:100%;
+    }
+    .header-hero-section-small-image-1 {
+        top: -413px;
+        left: 15px;
+    }
+    .new-year-discount-total-area-small-image-5 {
+        right: 2px;
+        top:-182px;
+    }
+    .new-year-discount-total-area-small-image-6 {
+        top: -426px !important;
+        left: 1px !important;
+    }
+    .new-year-discount-total-area-small-image-5 {
+        right: 2px !important;
+        top: -207px !important;
+    }
+    .popular-courses-of-week-section-text-area {
+        padding: 100px 0 0 0;
+    }
+    .let-us-skill-shoot-section-about-bullet-paragraphs p {
+        font-size: 12px;
+        line-height: 30px;
+        font-weight: 600;
+        color: #2C2C2C;
+    }
+    .improve-your-skills-section-sub-image-2 {
+        bottom: 78px !important;
+        right: 289px !important;
+    }
+    .improve-your-skills-section-sub-image-1{
+        bottom: -38px !important;
+        right:-16px !important;
+    }
+    .improve-your-skills-section-sub-image-1-side-image{
+        top: 15px !important;
+        right: -8px !important;
+    }
+    .subscribe-with-us-section-title h2, .what-they-say-title h2, .footer-section-title h2{
+        font-size:18px !important;
+    }
+    a.choose-plan-btn {
+        background-color: #FED1BA;
+        font-size: 12px;
+        line-height: 30px;
+        font-weight: 600;
+        margin-left: 0px !important;
+        width: 207px !important;
+        height: 45px !important;
+    }
 }

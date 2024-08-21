@@ -156,7 +156,7 @@ a.instagram-icon{
     z-index:999;
 } */
 header.header-section {
-    height: 100%;
+    height: 76vh;
     width: 100% !important;
 }
 .header-hero-section-small-images-area {
@@ -323,7 +323,7 @@ section.trusted-company-section {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 3%;
+    margin-top: 2rem;
 }
 .new-year-bg {
     background-image: url("../Images/new-year-bg.png");
@@ -332,16 +332,17 @@ section.trusted-company-section {
     background-size: cover;
     width:100% !important;
     height:100%;
+    border-radius:10px;
 }
 .new-year-discount-total-area {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 35vh !important;
+    height: 36vh !important;
     flex-wrap: wrap;
 }
 .new-year-discount-total-area-image img {
-    margin-bottom: 169px;
+    margin-top: -167px;
 }
 .new-year-discount-total-area-information-texts h4 {
     font-size: 36px;
@@ -388,7 +389,7 @@ section.trusted-company-section {
     width: 49px;
     height: 49px;
     background: #14463A;
-    top: -362px;
+    top: -226px;
     left: 128px;
     z-index:9;
 }
@@ -398,7 +399,7 @@ section.trusted-company-section {
     height: 49px;
     border: 1px solid #14463A;
     z-index: 8;
-    top: -354px;
+    top: -220px;
     left: 135px;
 }
 .new-year-discount-total-area-small-image-2 {
@@ -407,8 +408,8 @@ section.trusted-company-section {
     height: 35.88px;
     background-color: #CB8461;
     rotate: 15deg;
-    right: 109px;
-    top: -334px;
+    right: 96px;
+    top: -233px;
     z-index: 9;
 }
 .new-year-discount-total-area-small-image-2-side-image-2 {
@@ -418,8 +419,8 @@ section.trusted-company-section {
     border: 1px solid #CB8461;
     rotate: 15deg;
     z-index: 8;
-    right: 117px;
-    top: -329px;
+    right: 104px;
+    top: -229px;
 }
 .new-year-discount-total-area-small-image-3 {
     position: absolute;
@@ -428,9 +429,9 @@ section.trusted-company-section {
     background: #347366;
     rotate: 15deg;
     z-index: 8;
-    top: -242px;
+    top: -87px;
     z-index:9;
-    right: 155px;
+    right: 143px;
 }
 .new-year-discount-total-area-small-image-3-side-image-3 {
     position: absolute;
@@ -438,9 +439,9 @@ section.trusted-company-section {
     height: 37px;
     border: 1px solid #347366;
     rotate: 15deg;
-    right: 163px;
+    right: 151px;
     z-index: 8;
-    top: -238px;
+    top: -83px;
 }
 .new-year-discount-total-area-small-image-4 {
     position: absolute;
@@ -448,7 +449,7 @@ section.trusted-company-section {
     width: 22px;
     height: 22px;
     border-radius: 50%;
-    top: -232px;
+    top: -78px;
     right: 437px;
     z-index: 9;
 }
@@ -458,7 +459,7 @@ section.trusted-company-section {
     width: 17px;
     background: #CD6B3B;
     border-radius: 50%;
-    top: -225px;
+    top: -69px;
     right: 434px;
     z-index: 10;
     opacity: 0.69;
@@ -473,7 +474,7 @@ section.trusted-company-section {
     position:absolute;
     content:url("../Images/Intersect-2.png");
     right: 1234px;
-    bottom: 372px;
+    bottom: 206px;
 }
 .exist-full-section {
     margin-top: 115px;
@@ -570,13 +571,13 @@ section.trusted-company-section {
     background-position:center;
     background-repeat:no-repeat;
     width: 100%;
-    height: 100%;
+    height: 109vh !important;
 }
 
 .popular-courses-of-week-section-text-area {
     text-align: center;
     color: #FFF;
-    padding: 78px 0 0 0;
+    padding: 52px 0 0 0;
 }
 
 .popular-courses-of-week-section-text-area h2 {
@@ -819,7 +820,7 @@ section.let-us-skill-shoot-section {
     z-index: 999;
     left: 194px;
     width: 227px;
-    height: 103px;
+    height: 111px;
     background: #FFF;
     border-radius: 12px;
     padding: 22px 0 0 14px;
@@ -842,11 +843,11 @@ section.let-us-skill-shoot-section {
     font-size: 10px;
     line-height: 15px;
     position: absolute;
-    bottom: 2px;
+    bottom: -6px;
 }
 .let-us-skill-shoot-section-text-area a {
     position: absolute;
-    top: 40px;
+    top: 47px;
     color: #FFF;
     text-decoration: none;
     background: #FF4F8E;
@@ -981,17 +982,24 @@ section.let-us-skill-shoot-section {
     top: 13px;
     left: 13px;
 }
+.improve-your-skills-section {
+    height: 54vh;
+}
 .improve-your-skills-section-bg {
     background: url("../Images/improve-skills-section-bg.png");
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
+    border-radius:15px;
+    width:100% !important;
+    height:100%;
 }
 .improve-your-skills-section-text-area h3 {
     font-size: 36px;
     font-weight: 600;
     line-height: 54px;
     color: #2C2C2C;
+    margin-top:14px;
 }
 .improve-your-skills-section-text-area h3 span {
     color: #CB8461;
@@ -1037,7 +1045,7 @@ a.subscribe-course-btn {
     background: #CB8461;
     rotate: 15deg;
     bottom: -72px;
-    right: -590px;
+    right: -137px;
 }
 .improve-your-skills-section-sub-image-1-side-image {
     position: absolute;
@@ -1045,13 +1053,13 @@ a.subscribe-course-btn {
     height: 35.88px;
     border: 1px solid #CB8461;
     bottom: -76px;
-    right: -581px;
+    right: -126px;
     rotate: 15deg;
 }
 .improve-your-skills-section-sub-image-2 {
     position: absolute;
     content: url(../Images/Intersect-improve-skill-section.png);
-    bottom: 110px;
+    bottom: 123px;
     right: 574px;
 }
 .subscribe-with-us-section {
@@ -1089,7 +1097,7 @@ a.subscribe-course-btn {
 }
 .subscribe-with-us-section-box {
     width: 292px;
-    height: 480px;
+    height: 490px;
     padding: 15px 25px 15px 25px;
     transition:0.3s;
 }
@@ -1363,8 +1371,9 @@ input[type="email"] {
     height: 67.36px;
     background: #F5F5F5;
     border-radius: 50%;
-    top: 463px;
+    top: 426px;
     left: -36px;
+    z-index:99;
 }
 .popular-courses-of-week-section-arrow-button-1-bg-side-image {
     position: absolute;
@@ -1372,9 +1381,10 @@ input[type="email"] {
     height: 53px;
     border-radius: 50%;
     background: #FFF;
-    top: 470px;
+    top: 434px;
     left: -29px;
     transition:0.3s;
+    z-index:999;
 }
 .popular-courses-of-week-section-arrow-button-left-arrow {
     position: absolute;
@@ -1396,7 +1406,7 @@ input[type="email"] {
     background-color: #F5F5F5;
     position: absolute;
     right: 0;
-    top: 468px;
+    top: 426px;
     right: -32px;
     z-index:99;
 }
@@ -1407,7 +1417,7 @@ input[type="email"] {
     border-radius: 50%;
     background: #FFF;
     right: -25px;
-    top: 475px;
+    top: 433px;
     transition:0.3s;
     z-index:999;
 }
@@ -1567,8 +1577,8 @@ img.responsive-menu-image{
 }
 .let-us-skill-shoot-section-about-bullet-paragraphs img {
     background: #f2e7db;
-    width: 46px;
-    height: 46px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    padding: 8px 7px 8px 7px;
+    padding: 13px;
 }
