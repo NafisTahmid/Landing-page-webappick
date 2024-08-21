@@ -582,7 +582,7 @@ section.trusted-company-section {
 }
 .popular-courses-of-week-section-box {
     background-color: #FFF;
-    width: 100%;
+    width: 97%;
     border-radius: 17px;
     height: 100%;
 }
@@ -1304,8 +1304,8 @@ input[type="email"] {
     height: 35.88px;
     background: #CB8461;
     rotate: 15deg;
-    top: 136px;
-    left: 101px;
+    bottom: 54px;
+    left: 84px;
 }
 .popular-courses-of-week-section-box-image-sub-images-rectangle-image-side-image {
     position: absolute;
@@ -1313,8 +1313,8 @@ input[type="email"] {
     height: 35.88px;
     border: 1px solid #CB8461;
     rotate: 15deg;
-    top: 140px;
-    left: 94px;
+    bottom: 51px;
+    left: 76px;
 }
 .popular-courses-of-week-section-box-image-sub-images-circular-image {
     position: absolute;
@@ -1323,7 +1323,7 @@ input[type="email"] {
     border-radius: 50%;
     background: #EB9F79;
     right: 128px;
-    top: 108px;
+    top: -105px;
 }
 .popular-courses-of-week-section-box-image-sub-images-circular-image-side-image{
     position: absolute;
@@ -1338,8 +1338,9 @@ input[type="email"] {
     height: 17px;
     border-radius: 50%;
     background-color: #CD6B3B;
-    right: 126px;
-    top: 116px;
+    right: 124px;
+    top: -96px;
+
     opacity: 0.69;
 }
 .popular-courses-of-week-section-arrow-buttons {
@@ -1375,6 +1376,7 @@ input[type="email"] {
     font-size: 25px;
     left: 13px;
     top: 6px;
+    z-index:9999;
 }
 .popular-courses-of-week-section-arrow-button-2-bg-image {
     width: 67px;
@@ -1385,6 +1387,7 @@ input[type="email"] {
     right: 0;
     top: 468px;
     right: -32px;
+    z-index:99;
 }
 .popular-courses-of-week-section-arrow-button-2-bg-side-image {
     width: 53px;
@@ -1395,6 +1398,7 @@ input[type="email"] {
     right: -25px;
     top: 475px;
     transition:0.3s;
+    z-index:999;
 }
 .popular-courses-of-week-section-arrow-button-2-bg-side-image::after {
     position: absolute;
@@ -1403,6 +1407,7 @@ input[type="email"] {
     top: 4px;
     left: 14px;
     transition:0.3s;
+    z-index:9999;
 }
 .popular-courses-of-week-section-arrow-button-1-bg-side-image:hover,
 .popular-courses-of-week-section-arrow-button-2-bg-side-image:hover
