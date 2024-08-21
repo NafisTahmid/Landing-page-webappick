@@ -7,10 +7,26 @@ $( document ).ready(function() {
             0:{
                 items:1
             },
-            600:{
-                items:3
+            767:{
+                items:1
             },
             1000:{
+                items:3
+            }
+        }
+    })
+    $('.popular-courses-slider').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            767:{
+                items:1
+            },
+            1200:{
                 items:3
             }
         }
