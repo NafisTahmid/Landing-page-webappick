@@ -1,6 +1,6 @@
 @media only screen and (min-width:992px) and (max-width:1200px){
     header.header-section{
-        min-height: 213.58vh !important;
+        min-height: 0vh !important;
         width: 100% !important;
     }
     .header-hero-section-main-image {
@@ -19,24 +19,116 @@
         margin: 0px !important;
     }
     .header-hero-section-text-area-vector-image {
+        left: 43%;
+    }
+    .header-hero-section-text-area-vector-image img {
+        width: 208px;
+    }
+    .popular-courses-of-week-section-box h5 {
+        padding-right: 3px;
+    }
+    .popular-courses-of-week-button-area a {
+        padding: 12px 21px 12px 17px !important;
+    }
+    .owl-theme .owl-nav {
+        margin-top: 10px;
+        display: none;
+    }
+    .popular-courses-of-week-section-box{
+        width:89%;
+    }
+    .popular-courses-of-week-button-area {
+        margin-left: 22px;
+    }
+    .owl-theme .owl-dots, .owl-theme .owl-nav {
+        text-align: center;
+        -webkit-tap-highlight-color: transparent;
+        display: none;
+    }
+    .popular-courses-of-week-section-arrow-button-2-bg-image {
+        top: 464px;
+        right: 13px;
+    }
+    .popular-courses-of-week-section-arrow-button-2-bg-side-image {
+        right: 20px;
+        top: 471px;
+    }
+    .popular-courses-of-week-section-arrow-button-1-bg-image {
+        top: 466px;
+        left: -26px;
+    }
+    .popular-courses-of-week-section-arrow-button-1-bg-side-image {
+        top: 473px;
+        left: -20px;
+    }
+    .popular-courses-of-week-section-text-area p{
+        width:100%;
+        margin-left:0%;
+    }
+    .let-us-skill-shoot-section-image-area-main-images {
+        margin-top: 57px;
+    }
+    .let-us-skill-shoot-section-side-image-3 {
+        right: 54px;
+    }
+    .let-us-skill-shoot-section-side-image-3 {
         position: absolute;
-        bottom: 171px;
-        left: 31%;
+        width: 46.72px;
+        height: 46.72px;
+        background: #F88C3D;
+        border-radius: 8px;
+        right: 54px;
+        bottom: 379px;
+        rotate: -15deg;
     }
-    .header-hero-section-small-image-1 {
-        left: 41px;
+    a.join-now-btn {
+        padding: 17px 10px 5px 18px;
     }
-    .header-hero-section-small-image-2 {
-        right: 17%;
-        
+    a.subscribe-course-btn {
+        padding: 16px 0px 0px 9px;
     }
-    .header-hero-section-small-image-3 {
-        right: 2%;     
+    .improve-your-skills-section-sub-image-2 {
+        bottom: 233px;
+        left: -58px;
     }
-    .new-year-discount-total-area-small-image-5 {
-        top: -60px;
+    .improve-your-skills-section-sub-image-1 {
+        bottom: -72px;
+        right: -38px;
     }
-    
+    .improve-your-skills-section-sub-image-1-side-image {
+        bottom: -76px;
+        right: -29px;
+    }
+    .improve-your-skills-section-button-area {
+        margin-top: 9rem;
+        margin-right: 1rem;
+    }
+    .subscribe-with-us-section-title p, .what-they-say-title p, .footer-section-title p {
+        color: #808080;
+        font-size: 16px;
+        line-height: 35px;
+        font-weight: 400;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .subscribe-with-us-section {
+        margin-top: 87px;
+    }
+    section.what-they-say-section {
+        margin-top: 37px !important;
+        min-height: 95vh !important;
+    }
+    .say-slider-section.owl-carousel.owl-theme.owl-loaded.owl-drag {
+        margin-bottom: 66px;
+    }
+    .say-slider-section-arrow-button-1 {
+        left: 409px;
+        top: -68px;
+    }
+    .say-slider-section-arrow-button-2 {
+        left: 479px;
+        top: -68px;
+    }
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
@@ -1066,5 +1158,11 @@
     }
     footer.footer-section {
         text-align: center;
+    }
+    section.what-they-say-section {
+        min-height: 71vh !important;
+    }
+    .subscribe-with-us-section {
+        margin: 50px 0px 32px 0;
     }
 }

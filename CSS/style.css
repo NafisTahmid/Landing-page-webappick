@@ -1551,10 +1551,10 @@ img.responsive-menu-image{
     font-weight: 600;
     color: #FFF;
     background: #245D51;
-    width: 25%;
+    width: auto;
     height: 50%;
     border-radius: 8px;
-    padding: 12px 15px 12px 25px;
+    padding: 12px 25px 12px 21px;
 }
 .popular-courses-of-week-button-area h6 {
     font-size: 12px;
