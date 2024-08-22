@@ -1,6 +1,22 @@
 @media only screen and (min-width:992px) and (max-width:1200px){
+    header.header-section{
+        min-height: 213.58vh !important;
+        width: 100% !important;
+    }
     .header-hero-section-main-image {
-        margin-top: 138px;
+        margin-top: 193px;
+    }
+    .navbar-section-logo-text {
+        width: 128px !important;
+    }
+    .header-hero-section-total-text-area-heading-text h1 {
+        font-size: 52px;
+    }
+    .header-hero-section-total-text-area-paragraph-text p{
+        width:100% !important;
+    }
+    .header-hero-section-main-image {
+        margin: 0px !important;
     }
     .header-hero-section-text-area-vector-image {
         position: absolute;
@@ -575,8 +591,8 @@
         height: 26.88px;
         background: #CB8461;
         rotate: 15deg;
-        bottom: -108px;
-        right: 37px;
+        bottom: -94px !important;
+        right: 23px !important;
     }
     .improve-your-skills-section-sub-image-1-side-image {
         position: absolute;
@@ -758,7 +774,7 @@
         margin-left: 0% !important;
     }
     input[type="email"] {
-        width: 100%;
+        width: 66%;
         height: 100%;
         border-radius: 5px;
         background: #FFFFFF;
@@ -774,17 +790,18 @@
     .footer-section-form a {
         text-decoration: none;
         color: #FFFFFF;
-        width: 50%;
-        height: 100%;
+        width: 38%;
+        height: 39px;
         background: #CC8663;
         border-radius: 4px;
         font-size: 12px;
         line-height: 20px;
         font-weight: 500;
         letter-spacing: -0.5px;
-        padding: 10px 15px 10px 35px;
+        /* padding: 10px 15px 10px 44px; */
         margin: 10px auto !important;
         display: block;
+        padding: 8px 5px 0 0;
     }
     .footer-section-form {
         display: block !important;
@@ -804,8 +821,9 @@
         height: 30px;
         border-radius: 50%;
         border: 3px solid #CC8663;
-        right: 265px;
-        bottom: 202px;
+        right: 37px;
+        bottom: 182px;
+        top: 21px;
     }
     .footer-section-sub-image-3 {
         position: absolute;
@@ -813,20 +831,15 @@
         height: 30px;
         border-radius: 50%;
         border: 1px solid #CC8663;
-        right: 256px;
-        bottom: 192px;
+        right: 31px;
+        bottom: -62px;
     }
     .footer-section-sub-image-1 {
         position: absolute;
         content: url(../Images/footer-vector-1.png);
-        left: 240px;
-        bottom: -35px;
+        left: 39px;
+        bottom: -140px;
         width: 17%;
-    }
-    .footer-section-navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
     .footer-section-navbar-logo h3 {
         font-size: 14px;
@@ -955,5 +968,103 @@
         margin-left: 0px !important;
         width: 207px !important;
         height: 45px !important;
+    }
+ .footer-section-title h2{
+    font-size: 18px !important;
+    line-height: 27px;
+    color: #FFF;
+    width: 100%;
+    }
+    .say-slider-section-arrow-button-2{
+        left:174px;
+    }
+    .say-slider-section-arrow-button-1{
+        left:112px;
+    }
+    section.what-they-say-section{
+        height: 68vh !important;
+    }
+    .footer-section-navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 130px;
+        margin-top: 22px;
+        flex-direction:column-reverse;
+    }
+    .footer-section-nav-links ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-section-nav-links ul li a{
+        margin-right: 152px !important;
+    }
+    .footer-section-navbar-logo h3 {
+        font-size: 14px;
+        line-height: 20px;
+        width: 75px;
+        margin-left: -112px;
+        margin-top: 8px;
+    }
+    .footer-section-title p{
+        width: 261px;
+        margin-left: 3rem !important;
+    }
+    .improve-your-skills-section-button-area {
+        position: relative;
+    }
+    a.subscribe-course-btn {
+        position: absolute;
+        top: 61px;
+        right: 73px;
+        padding-left:25px;
+    }
+    a.join-now-btn {
+        position: absolute;
+        top: 0px;
+        right: 112px;
+        padding-left:23px;
+    }
+    .improve-your-skills-section{
+        height: 43vh !important;
+    }
+    .improve-your-skills-section-sub-image-1 {
+        bottom: -57px !important;
+        right: 3px !important;
+    }
+    .improve-your-skills-section-sub-image-1-side-image {
+        top: 33px !important;
+        right: 9px !important;
+    }
+    .popular-courses-of-week-section-arrow-button-2-bg-image {
+        top: 395px !important;
+        right: 0px !important;
+        width: 57px !important;
+        height: 57px !important;
+    }
+    .popular-courses-of-week-section-arrow-button-2-bg-side-image{
+        right: 4px;
+        top: 397px;
+        width:48px;
+        height:48px;
+    }
+    .popular-courses-of-week-section-arrow-button-1-bg-image {
+        width: 57px;
+        height: 57px;
+        top: 396px;
+        left: -8px;
+    }
+    .popular-courses-of-week-section-arrow-button-1-bg-side-image {
+        width: 48px;
+        height: 48px;
+        top: 401px;
+        left: -3px;
+    }
+    header.header-section{
+        min-height: 78.5vh !important;
+    }
+    footer.footer-section {
+        text-align: center;
     }
 }
