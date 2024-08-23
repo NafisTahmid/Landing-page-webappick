@@ -129,9 +129,343 @@
         left: 479px;
         top: -68px;
     }
+    .new-year-discount-total-area-image img {
+        margin-top: -135px !important;
+    }
+    .new-year-discount-total-area-information-texts {
+        padding-top: 2rem !important;
+        padding-left: 2.5rem;
+    }
+    .new-year-bg {
+        height: 90vh !important;
+    }
+    .new-year-discount-total-area-small-image-1{
+        left: 46px;
+    }
+    .new-year-discount-total-area-small-image-1-side-image-1{
+        left: 52px;
+
+    }
+    .new-year-discount-total-area-small-image-2 {
+        right: 58px;
+    }
+    .new-year-discount-total-area-small-image-2-side-image-2 {
+        right: 66px;
+    }
+    .new-year-discount-total-area-small-image-4{
+        right: 334px;
+    }
+    .new-year-discount-total-area-small-image-4-side-image-4 {
+        right: 330px;
+    }
+    .new-year-discount-total-area-small-image-6 {
+        left: -39px !important;
+        top: -32px !important;
+    }
+    .popular-courses-of-week-button-area {
+        margin-left: -1rem;
+        margin-top: -1rem !important;
+    }
+    .popular-courses-of-week-section-box h5 {
+        font-size: 20px;
+        line-height: 36px;
+        font-weight: 600;
+        padding-left: 0rem !important;
+    }
+    .popular-courses-of-week-section-box-users {
+        margin-right: 1.5rem;
+    }
+    .popular-courses-of-week-section-box-users-instructor-info {
+        margin-left: 0.7rem !important;
+    }
+    .popular-courses-of-week-section-box-users-instructor-info-text p {
+        width: 100px;
+    }
+    .popular-courses-of-week-section-box-users-participants-info {
+        margin-right: 0.5rem !important;
+    }
+    .popular-courses-of-week-section-box-users-participants-info-text {
+        position: relative;
+    }
+    .popular-courses-of-week-section-box-users-participants-info-text p {
+        position: absolute;
+        top: -19px;
+    }
+    .popular-courses-of-week-section-box-users-participants-info-text small {
+        top: 1px;
+        position: absolute;
+    }
+    .popular-courses-of-week-section-arrow-button-2-bg-image {
+        top: 299px;
+        right: 13px;
+    }
+    .popular-courses-of-week-section-arrow-button-2-bg-side-image {
+        right: 20px;
+        top: 307px;
+    }
+    .popular-courses-of-week-section-arrow-button-1-bg-image {
+        top: 302px;
+    }
+    .popular-courses-of-week-section-arrow-button-1-bg-side-image {
+        top: 309px;
+        left: -19px;
+    }
+    .popular-courses-of-week-section-box-image-sub-images-transparent-button {
+        top: 147px;
+        left: 87px;
+    }
+    .popular-courses-of-week-section-box-image-sub-images-play-button {
+        top: 160px;
+        left: 99px;
+    }
+    .play-button {
+        top: 80px;
+        left: 120px;
+    }
+    .header-hero-section-small-image-1 {
+        top: -463px;
+        left: 45px;
+    }
+    .header-hero-section-small-image-2 {
+        right: 66px;
+        top: -393px;
+    }
+    .header-hero-section-small-image-3 {
+        right: 22px;
+        top: -115px;
+    }
+    .improve-your-skills-section-bg {
+        height: 83vh !important;
+    }
+    .improve-your-skills-section-text-area h3 {
+        margin-top: -12px;
+        padding-left: 15px;
+    }
+    .improve-your-skills-section-button-area {
+        margin-top: 6rem;
+        margin-right: 1rem;
+    }
+    .improve-your-skills-section-sub-image-1-side-image {
+        bottom: -35px;
+        right: -29px;
+    }
+    .improve-your-skills-section-sub-image-2 {
+        top: 0px !important;
+        left: 0px !important;
+    }
+
+    .improve-your-skills-section-sub-image-1 {
+        bottom: 27px !important;
+        right: -38px;
+    }
+    .improve-your-skills-section-sub-image-1-side-image {
+        bottom:23px !important;
+        right: -29px !important;
+    }
+    .new-year-discount-total-area-information-texts h4{
+        line-height:45px;
+    }
+    .trusted-company-section-text-area p{
+        width:100%;
+        margin-left:0%;
+    }
+    .let-us-skill-shoot-section-about-bullet-paragraphs p{
+        font-size: 13px !important;
+    }
+    section.what-they-say-section {
+        height: 190vh !important;
+    }
+ 
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
+    .navbar-section-menu-link ul li a{
+        font-size:14px;
+    }
+    .navbar-section-with-buttons a,
+    .navbar-section-with-buttons a:last-child{
+        font-size:14px;
+    }
+    .navbar-section-logo-text {
+        margin-top: 16px;
+        width: 100vw;
+    }
+    .navbar-section-logo-text h3 {
+        font-size: 18px;
+    }
+    .navbar-section-menu-link ul li a {
+        font-size: 14px;
+    }
+    .navbar-section-with-buttons a:last-child{
+        padding:12px 0px 0px 21px;
+    }
+    .header-hero-section-total-text-area-link-area {
+        flex-direction: column;
+        margin-right: 7rem;
+    }
+    .header-hero-section-main-image-area {
+        margin-top: 441px;
+    }
+    .header-hero-section-main-image-area {
+        margin-top: 5rem;
+    }
+    .header-hero-section-total-text-area-heading-text h1 {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 64px;
+        width: 48vw;
+        /* padding-top: 27px; */
+    }
+    .header-hero-section-text-area-vector-image {
+        position: absolute;
+        bottom: 123px;
+        left: 158px;
+    }
+    .header-hero-section-text-area-vector-image img {
+        width: 154px;
+    }
+    .header-hero-section-total-text-area-paragraph-text p {
+        font-size: 14px;
+        line-height: 35px;
+        width: 75%;
+    }
+    a.header-button {
+        text-decoration: none;
+        background-color: #CB8461;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        color: #FFF;
+        width: 181px;
+        height: 50px;
+        padding: 10px 23px 10px 26px;
+        border-radius: 8px;
+    }
+    .header-hero-section-total-text-area-link-area-icons {
+        padding-top: 1rem;
+    }
+    .header-hero-section-small-image-1 {
+        top: -436px;
+        left: 13px;
+    }
+    .header-hero-section-small-image-2 {
+        right: 33px;
+        top: -363px;
+    }
+    .header-hero-section-small-image-3 {
+        right: 1px;
+        top: -115px;
+    }
+    .trusted-company-section-text-area p {
+        font-size: 12px;
+        line-height: 35px;
+        font-weight: 400;
+        width: 100%;
+        margin-left: 0px;
+        color: #808080;
+    }
+    .trusted-company-section-image-area img {
+        margin-right: 10px !important;
+        margin-top: 1rem;
+    }
+    .new-year-discount-total-area-small-image-6 {
+        position: absolute;
+        content: url(../Images/Intersect-2.png);
+        top: -63px !important;
+        left: 0px !important;
+    }
+    .new-year-discount-total-area-information-texts h4 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .new-year-discount-total-area-information-texts a {
+        font-size: 12px;
+    }
+    .new-year-discount-total-area-small-image-1 {
+        top: -226px;
+        left: 1px;
+    }
+    .new-year-discount-total-area-small-image-1-side-image-1 {
+        top: -220px;
+        left: 8px;
+    }
+    .new-year-discount-total-area-small-image-2 {
+        right: 18px;
+        top: -233px;
+    }
+    .new-year-discount-total-area-small-image-2-side-image-2 {
+        right: 25px;
+        top: -229px;
+    }
+    .new-year-discount-total-area-small-image-4 {
+        top: -78px;
+        right: 267px;
+    }
+    .new-year-discount-total-area-small-image-4-side-image-4 {
+        top: -69px;
+        right: 264px;
+    }
+    .exist-answer-section-text-area p {
+        font-size: 11px;
+        line-height: 28px;
+        width: 38vw;
+        text-align: left;
+    }
+    .material-limitations-full-area h6, .unprofessional-mentor-full-area h6, .video-quality-full-area h6, .high-price-full-area h6 {
+        font-size: 15px;
+        line-height: 24px;
+        width: 100vw;
+    }
+    .material-limitations-full-area p, .unprofessional-mentor-full-area p, .video-quality-full-area p, .high-price-full-area p {
+        font-size: 11px;
+        line-height: 26px;
+        color: #808080;
+        width: 20vw;
+    }
+    .exist-answer-review-area-text p {
+        font-size: 15px;
+        line-height: 24px;
+
+    }
+    section.trusted-company-section {
+        margin: 45px 0 190px 0;
+    }
+    .exist-answer-review-area-text small {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .popular-courses-of-week-section-text-area p {
+        font-size: 11px;
+        line-height: 28px;
+        width: 100%;
+        margin-left: 0rem;
+    }
+    .popular-courses-of-week-section-box-image-sub-images-rectangle-image {
+        position: absolute;
+        width: 35.88px;
+        height: 35.88px;
+        background: #CB8461;
+        rotate: 15deg;
+        top: -69px;
+        left: 19px;
+    }
+    .popular-courses-of-week-section-box-image-sub-images-rectangle-image-side-image {
+        bottom: 29px;
+        left: 11px;
+    }
+    .popular-courses-of-week-section-box-image-sub-images-circular-image {
+        right: 27px;
+        top: -82px;
+    }
+    .popular-courses-of-week-section-box-image-sub-images-circular-image-side-image {
+        right: 23px;
+        top: -73px;
+    }
+    .popular-courses-of-week-section-box h5 {
+        font-size: 20px;
+        line-height: 26px;
+        padding-left: 23px !important;
+    }
 
 }
 
@@ -258,6 +592,7 @@
         font-size: 18px;
         line-height: 24px;
     }
+  
 }
 
 @media only screen and (max-width:576px) {

@@ -4,13 +4,13 @@ $( document ).ready(function() {
         margin:10,
         nav:true,
         responsive:{
-            0:{
+            767:{
                 items:1
             },
-            767:{
+            991:{
                 items:2
             },
-            1000:{
+            1200:{
                 items:3
             }
         }
@@ -20,14 +20,14 @@ $( document ).ready(function() {
         margin:10,
         nav:true,
         responsive:{
-            0:{
+            767:{
                 items:1
             },
-            600:{
-                items:3
+            991:{
+                items:2
             },
-            1000:{
-                items:5
+            1200:{
+                items:3
             }
         }
     })

@@ -340,8 +340,9 @@ section.trusted-company-section {
     line-height: 54px;
     font-weight: 600;
     margin-bottom: 30px;
-    padding-left: 22px;
+    padding-left: 71px;
     width: 100%;
+    position:relative;
     
 }
 .new-year-discount-total-area-information-texts{
@@ -359,16 +360,9 @@ section.trusted-company-section {
     padding: 15px 25px 15px 25px;
     border-radius: 4px;
     margin-top: 7px;
-    margin-left: 24px;
+    margin-left: 72px;
 }
-/* .new-year-discount-total-area-image {
-    position: relative;
-}
-.new-year-discount-total-area-image img {
-    position: absolute;
-    left: 155px;
-    bottom: -295px;
-} */
+
 .new-year-discount-total-area-small-images {
     position: relative;
 }
@@ -464,8 +458,8 @@ section.trusted-company-section {
 .new-year-discount-total-area-small-image-6 {
     position:absolute;
     content:url("../Images/Intersect-2.png");
-    right: 1234px;
-    bottom: 206px;
+    bottom: 112px !important;
+    left: 0px !important;
 }
 .exist-full-section {
     margin-top: 115px;
@@ -1036,23 +1030,23 @@ a.subscribe-course-btn {
     height: 35.88px;
     background: #CB8461;
     rotate: 15deg;
-    bottom: -72px;
-    right: -137px;
+    bottom: -17px;
+    right: -114px;
 }
 .improve-your-skills-section-sub-image-1-side-image {
     position: absolute;
     width: 35.88px;
     height: 35.88px;
     border: 1px solid #CB8461;
-    bottom: -76px;
-    right: -126px;
+    bottom: -21px;
+    right: -106px;
     rotate: 15deg;
 }
 .improve-your-skills-section-sub-image-2 {
     position: absolute;
     content: url(../Images/Intersect-improve-skill-section.png);
-    bottom: 123px;
-    right: 574px;
+    top: 0px;
+    left: 0px;
 }
 .subscribe-with-us-section {
     margin-top: 120px;
@@ -1256,7 +1250,7 @@ a.choose-plan-btn {
 }
 section.what-they-say-section {
     margin-top: 80px;
-    min-height: 95vh;
+    min-height: 86vh;
 }
 .footer-bg {
     background-image: url("../Images/footer-bg.png");
@@ -1493,7 +1487,7 @@ input[type="email"] {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 25px;
-    margin: 70px 0 0 0;
+    margin: 85px 0 0 0;
 }
 .footer-section-nav-links ul li a {
     text-decoration: none;
@@ -1579,4 +1573,10 @@ img.responsive-menu-image{
 }
 footer.footer-section{
     min-height:100%;
+}
+.improve-your-skills-section-text-area {
+    padding: 55px 0 55px 59px;
+}
+.improve-your-skills-section-text-area {
+    position: relative !important;
 }
