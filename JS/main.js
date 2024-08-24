@@ -4,7 +4,7 @@ $( document ).ready(function() {
         margin:10,
         nav:true,
         responsive:{
-            767:{
+            768:{
                 items:1
             },
             991:{
@@ -14,13 +14,16 @@ $( document ).ready(function() {
                 items:3
             }
         }
-    })
+    });
     $('.popular-courses-slider').owlCarousel({
         loop:true,
         margin:10,
         nav:true,
         responsive:{
-            767:{
+            576:{
+                items:1
+            },
+            768:{
                 items:1
             },
             991:{
