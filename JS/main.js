@@ -4,13 +4,19 @@ $( document ).ready(function() {
         margin:10,
         nav:true,
         responsive:{
+            320:{
+                items:1
+            },
+            576:{
+                items:1
+            },
             768:{
                 items:1
             },
-            991:{
+            992:{
                 items:2
             },
-            1200:{
+            1400:{
                 items:3
             }
         }
@@ -20,16 +26,19 @@ $( document ).ready(function() {
         margin:10,
         nav:true,
         responsive:{
+            320:{
+                items:1
+            },
             576:{
                 items:1
             },
             768:{
                 items:1
             },
-            991:{
+            992:{
                 items:2
             },
-            1200:{
+            1400:{
                 items:3
             }
         }

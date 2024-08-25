@@ -1580,3 +1580,14 @@ footer.footer-section{
 .improve-your-skills-section-text-area {
     position: relative !important;
 }
+.popular-courses-of-week-section-box-users {
+    margin-right: 2rem !important;
+    margin-top: 26px !important;
+}
+.popular-courses-of-week-button-area {
+    margin-left: 1rem;
+}
+.popular-courses-of-week-button-area {
+    background-color: #FAFAFA;
+    padding-left: 1rem;
+}

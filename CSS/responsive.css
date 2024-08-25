@@ -281,6 +281,34 @@
     .improve-your-skills-section-bg {
         height: 39vh !important;
     }
+    .new-year-bg {
+        height: 57vh !important;
+    }
+    .popular-courses-of-week-section-box-image-sub-images-transparent-button {
+        top: 194px !important;
+        left: 40% !important;
+    }
+    .popular-courses-of-week-section-box-image-sub-images-play-button {
+        top: 207px !important;
+        left: 43% !important;
+    }
+    .play-button {
+        top: 124px !important;
+        left: 48% !important;
+    }
+    .popular-courses-of-week-button-area {
+        background-color: #FAFAFA;
+        padding-left: 1rem;
+        width: 100%;
+        margin-left: 0rem;
+        margin-top: 0rem !important;
+    }
+    .improve-your-skills-section-bg {
+        height: 61vh !important;
+    }
+    section.what-they-say-section {
+        height: 133vh !important;
+    }
  
 }
 
@@ -762,6 +790,33 @@
         top: 286px;
         left: -24px;
     }
+    .owl-theme .owl-dots, .owl-theme .owl-nav {
+        display: none !important;
+
+    }
+    .popular-courses-of-week-section-box-users-instructor-info-text p {
+        font-size: 12px;
+        line-height: 17px;
+        padding-top: 6px;
+        font-weight: 500;
+        width: 10vw;
+    }
+    .popular-courses-of-week-button-area {
+        background-color: #FAFAFA;
+        padding-left: -1.7rem !important;
+        margin-left: 0rem !important;
+    }
+    .let-us-skill-shoot-section-text-area-vector-image img {
+        left: 160px !important;
+    }
+    .improve-your-skills-section {
+        height: 48vh !important;
+        margin-top: 2rem;
+    }
+    section.what-they-say-section {
+        margin-top: 15px;
+        height: 106vh;
+    }
 }
 
 @media only screen and (max-width:767px) {
@@ -886,6 +941,919 @@
         font-weight: 700;
         font-size: 18px;
         line-height: 24px;
+    }
+    .navbar-section-logo-text h3 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .navbar-section-menu-link {
+        display: none;
+    }
+    .navbar-section-with-buttons {
+        display: none;
+    }
+    .header-hero-section-main-image img {
+        display: none !important;
+    }
+    .header-hero-section-small-image-1 {
+        top: -376px;
+        left: 7px;
+    }
+    .header-hero-section-small-image-3 {
+        left: 7px;
+        top: -83px;
+    }
+    .header-hero-section-small-image-2 {
+        right: 7px;
+        top: -59px;
+    }
+    .new-year-discount-total-area-image img {
+        display: none !important;
+    }
+    section.trusted-company-section {
+        margin: 52px 0 72px 0;
+    }
+    .new-year-discount-total-area-small-image-1{
+        display:none;
+    }
+    .new-year-discount-total-area-small-image-1-side-image-1{
+        display:none !important;
+    }
+    .new-year-discount-total-area-small-image-2{
+        display:none;
+    }
+    .new-year-discount-total-area-small-image-2-side-image-2{
+        display:none;
+    }
+    .new-year-discount-total-area-small-image-3{
+        display:none;
+    }
+    .new-year-discount-total-area-small-image-3-side-image-3{
+        display:none;
+    }
+    .new-year-discount-total-area-small-image-6 {
+        position: absolute;
+        content: url(../Images/Intersect-2.png);
+        top: -279px;
+    }
+    .new-year-discount-total-area-information-texts {
+        margin-bottom: 228px !important;
+        text-align: center;
+        padding-right: 16rem;
+        width: 100%;
+    }
+    .new-year-bg {
+        height: 42vh !important;
+        border-radius: 10px;
+    }
+    .new-year-discount-total-area-information-texts h4 {
+        font-size: 16px;
+        line-height: 27px;
+        font-weight: 600;
+        margin-bottom: 30px;
+        padding-left: 22px;
+        width: 100%;
+        padding-top:27px;
+    }
+    .new-year-discount-total-area-small-image-5 {
+        right: 44px;
+        top: -189px;
+    }
+    .new-year-discount-total-area-small-image-6 {
+        top: -425px !important;
+        left: 44px;
+    }
+    .new-year-discount-total-area-small-image-4{
+        top: -202px;
+        left: 72px;
+    }
+    .new-year-discount-total-area-small-image-4-side-image-4 {
+        top: -194px;
+        left: 81px;
+    }
+    .exist-full-section {
+        margin-top: 40px;
+    }
+    .exist-answer-section-text-area {
+        text-align: center;
+    }
+    .exist-answer-section-text-area h2 {
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: 600;
+    }
+    .exist-answer-section-text-area p {
+        font-size: 12px;
+        line-height: 30px;
+        color: #808080;
+        width: 100%;
+    }
+    .exist-answer-review-area-text small {
+        position: absolute;
+        font-size: 10px;
+        line-height: 15px;
+        font-weight: 400;
+        top: 62%;
+    }
+    .exist-answer-section-horizontal-line {
+        margin-top: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .exist-answer-section-update-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .exist-answer-section-review-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .exist-answer-section-update-area-updated-material-text,
+    .exist-answer-section-update-area-member-join-text {
+        text-align: center;
+    }
+    .exist-answer-section-update-area-updated-material-text h5,
+    .exist-answer-section-update-area-member-join-text h5 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .exist-answer-section-update-area-updated-material-text small,
+    .exist-answer-section-update-area-member-join-text small {
+        font-size: 10px;
+        line-height: 30px;
+    }
+    .exist-full-section-negative-reviews {
+        margin-top: 2.5rem;
+    }
+    .material-limitations-full-area img,
+    .unprofessional-mentor-full-area img,
+    .video-quality-full-area img,
+    .high-price-full-area img {
+        margin: 0 auto;
+    }
+    .material-limitations-full-area,
+    .unprofessional-mentor-full-area,
+    .video-quality-full-area,
+    .high-price-full-area {
+        text-align: center;
+    }
+    .material-limitations-full-area h6, .unprofessional-mentor-full-area h6, .video-quality-full-area h6, .high-price-full-area h6{
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .material-limitations-full-area p, .unprofessional-mentor-full-area p, .video-quality-full-area p, .high-price-full-area p {
+        font-size: 12px;
+        line-height: 30px;
+        color: #808080;
+        width: 100%;
+    }
+    .popular-courses-of-week-section-text-area {
+        padding: 50px 0 0 0;
+    }
+    .popular-courses-of-week-section-text-area h2 {
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: 600;
+    }
+    .popular-courses-of-week-section-text-area p {
+        font-size: 12px;
+        line-height: 30px;
+        font-weight: 400;
+        width:100%;
+        margin:0;
+    }
+    .popular-courses-of-week-section-box-image-sub-images-rectangle-image {
+        width: 26.88px;
+        height: 26.88px;
+        bottom: 105px;
+        left: 5px;
+    }
+    .popular-courses-of-week-section-box-image-sub-images-rectangle-image-side-image {
+        position: absolute;
+        width: 26.88px;
+        height: 26.88px;
+        border: 1px solid #CB8461;
+        rotate: 15deg;
+        bottom: 101px;
+        left: -2px;
+    }
+    .popular-courses-of-week-section-box-image-sub-images-circular-image {
+        right: 0px;
+        top: -118px;
+    }
+    .popular-courses-of-week-section-box-image-sub-images-circular-image-side-image {
+        right: -2px;
+        top: -109px;
+    }
+    .popular-courses-of-week-section-box-image-sub-images-transparent-button {
+        top: 151px;
+        left: 33%;
+    }
+    .popular-courses-of-week-section-box-image-sub-images-play-button {
+        top: 163px;
+        left: 37%;
+    }
+    .play-button {
+        top: 82px;
+        left: 44%;
+    }
+    .popular-courses-of-week-section-box h5 {
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 600;
+    }
+    .popular-courses-of-week-section-box-users-instructor-info-text p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .popular-courses-of-week-section-box-users-instructor-info-text small {
+        position: absolute;
+        font-size: 7px;
+        line-height: 10.5px;
+        color: #808080;
+        bottom: 5px;
+    }
+    .popular-courses-of-week-section-box-users-participants-info-text p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .popular-courses-of-week-section-box-users {
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+    }
+    .popular-courses-of-week-button-area a {
+        width: 93px;
+        height: 50px;
+        padding: 12px 15px 12px 20px;
+    }
+    .popular-courses-of-week-button-area h6 span {
+        font-size: 16px;
+        color: #2B2B2B;
+        font-weight: 600;
+        line-height: 24px;
+    }
+    .popular-courses-of-week-button-area h6 {
+        font-size: 8px;
+        line-height: 30px;
+
+    }
+
+    .popular-courses-of-week-section-arrow-button-2-bg-side-image {
+        width: 53px;
+        height: 53.28px;
+        position: absolute;
+        border-radius: 50%;
+        background: #FFF;
+        right: -25px;
+        top: 475px;
+        transition: 0.3s;
+        z-index: 999;
+    }
+    .let-us-skill-shoot-section-about h2{
+        font-size:20px;
+        line-height:30px;
+        padding-left: 0;
+    }
+    .let-us-skill-shoot-section-about h2 span{
+        font-size:20px;
+        line-height:30px;
+    }
+    .let-us-skill-shoot-section-text-area-paragraph p {
+        font-size: 12px;
+        line-height: 30px;
+        color: #808080;
+        width: 100%;
+        padding-left: 0;
+    }
+    .let-us-skill-shoot-section-text-area-paragraph p:first-child{
+        width:100%;
+        padding-left:0;
+    }
+    .let-us-skill-shoot-section-text-area-paragraph p:last-child{
+        width:100%;
+        padding-left:0;
+    }
+    .let-us-skill-shoot-section-text-area-vector-image img {
+        position: absolute;
+        left: 20px;
+        bottom: 0px;
+        display: none;
+    }
+    .let-us-skill-shoot-section-image-area {
+        display: none;
+    }
+    .let-us-skill-shoot-section-about {
+        margin-top: 0px;
+    }
+    .let-us-skill-shoot-section-text-area-vector-image img {
+        width: 109px;
+        margin-left: 40px !important;
+    }
+    section.let-us-skill-shoot-section {
+        margin-top: 60px;
+    }
+    .let-us-skill-shoot-section-about-bullet-paragraph-1,
+    .let-us-skill-shoot-section-about-bullet-paragraph-2 {
+        margin-left: 0px;
+    
+    }
+    .let-us-skill-shoot-section-about-bullet-paragraphs {
+        margin-top: 25px;
+    }
+    .let-us-skill-shoot-section-about-bullet-paragraph-1 p,
+    .let-us-skill-shoot-section-about-bullet-paragraph-2 p {
+        font-size: 12px;
+        line-height: 30px;
+        font-weight: 600;
+        color: #2C2C2C;
+        padding-left: 57px;
+    }
+    .let-us-skill-shoot-section-about-bullet-paragraphs {
+        margin-top: 25px;
+        width: 100%;
+        padding-left: 0;
+    }
+    .let-us-skill-shoot-section-about-bullet-paragraph-1 p:last-child,
+    .let-us-skill-shoot-section-about-bullet-paragraph-2 p:last-child
+     {
+        padding-left: 59px;
+        color: #2C2C2C;
+        margin-left:0px;
+        width: 169px !important;
+    }
+    .let-us-skill-shoot-section-text-area-side-image-area-image-2 {
+        bottom: 109px;
+        right: 91px;
+    }
+    .let-us-skill-shoot-section-about-bullet-paragraph-1,
+    .let-us-skill-shoot-section-about-bullet-paragraph-2 {
+        bottom: 107px;
+        right: 90px;
+    }
+    .let-us-skill-shoot-section-text-area-side-image-area-image-1 {
+        bottom: 108px;
+        left: -3px;
+      
+    }
+    .let-us-skill-shoot-section-text-area-side-image-area-image-3 {
+        bottom: 23px;
+        left: -2px;
+    }
+    .let-us-skill-shoot-section-text-area-side-image-area-image-4 {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #eb9f79;
+        right: 90px;
+        bottom: 24px;
+    }
+    .let-us-skill-shoot-section-about-bullet-paragraph-2 p:last-child{
+        width: 33%;
+    }
+    .improve-your-skills-section-text-area h3 {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        color: #2C2C2C;
+        padding-top: 64px;
+    }
+    .improve-your-skills-section-sub-image-2 {
+        bottom: 78px !important;
+    }
+    .improve-your-skills-section-text-area {
+        padding:0;
+        margin:0;
+        text-align: center;
+    }
+    a.join-now-btn {
+        width: 115px;
+        display:block;
+        height: 51px !important;
+        background: #CB8461;
+        border-radius: 4px;
+        padding: 14px 0 0 12px;
+        font-size: 14px !important;
+        line-height: 21px !important;
+        font-weight: 600;
+        margin: 0 auto;
+    }
+    a.subscribe-course-btn {
+        font-size: 14px;
+        line-height: 21px;
+        width: 176px;
+        height: 51px !important;
+        padding: 15px 2px 0px 3px;
+        margin-right: 1rem;
+    }
+    .improve-your-skills-section-button-area {
+       padding-bottom:24px;
+       margin-top:0%;
+    }
+    .improve-your-skills-section-sub-image-2{
+        bottom:52px;
+    }
+    .improve-your-skills-section-sub-image-1 {
+        position: absolute;
+        width: 26.88px;
+        height: 26.88px;
+        background: #CB8461;
+        rotate: 15deg;
+        bottom: -94px !important;
+        right: 23px !important;
+    }
+    .improve-your-skills-section-sub-image-1-side-image {
+        position: absolute;
+        width: 26.88px;
+        height: 26.88px;
+        border: 1px solid #CB8461;
+        rotate: 15deg;
+        top: 84px;
+        right: 45px;
+    }
+    .subscribe-with-us-section {
+        margin-top: 50px;
+    }
+    .subscribe-with-us-section-title h2, .what-they-say-title h2, .footer-section-title h2 {
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: 600;
+        color: #2C2C2C;
+    }
+    .subscribe-with-us-section-title p, .what-they-say-title p, .footer-section-title p {
+        color: #808080;
+        font-size: 12px;
+        line-height: 30px;
+        font-weight: 400;
+        width: 100%;
+        margin-left:0% !important;
+    }
+    .subscribe-with-us-section-box-price h6 span {
+        font-size: 12px;
+        line-height: 30px;
+        font-weight: 700;
+        color: #2C2C2C;
+    }
+    .subscribe-with-us-section-box-price h6 {
+        font-size: 8px;
+        color: #808080;
+        line-height: 15px;
+    }
+    .subscribe-with-us-section-title, .what-they-say-title, .footer-section-title {
+        text-align: center;
+        margin-bottom:0px;
+    }
+    .subscribe-with-us-section-box-description-text h6 {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 700;
+        color: #2C2C2C;
+        transition: 0.3s !important;
+    }
+    .subscribe-with-us-section-box-description-text p {
+        font-size: 10px;
+        color: #808080;
+        line-height: 18px;
+        width: 222px;
+        transition: 0.3s;
+    }
+    .subscribe-with-us-section-box-menu ul li a {
+        text-decoration: none;
+        color: #2C2C2C;
+        font-size: 12px;
+        line-height: 30px;
+        font-weight:400;
+        margin-bottom: 5px;
+        display: inline-block;
+        margin-bottom:0px !important;
+    }
+    a.choose-plan-btn {
+        text-decoration: none;
+        background-color: #FED1BA;
+        text-align: center;
+        font-size: 10px;
+        line-height: 15px;
+        font-weight: 600;
+        padding: 15px 40px 15px 40px;
+        color: #FDC2A5;
+        border-radius: 66px;
+        opacity: 0.6;
+        margin-left: 12px;
+    }
+    .subscribe-with-us-section-box {
+        width: 100% !important;
+        height: 100% !important;
+        padding: 15px 25px 15px 25px;
+        transition: 0.3s;
+    }
+    a.most-popular-btn {
+        opacity: 0;
+        text-decoration: none;
+        width: 121px;
+        height: 27px;
+        text-transform: uppercase;
+        font-size: 10px;
+        line-height: 15px;
+        font-weight: 600;
+        letter-spacing: 0.83px;
+        text-align: center;
+        padding: 7px 12px 7px 12px;
+        border-radius: 15px;
+        margin-left: 111px;
+    }
+    .say-slider-section-box {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        border-radius: 4px;
+        padding: 55px 0 0 0;
+        transition: 0.3s;
+    }
+    section.what-they-say-section {
+        margin-top: 0px !important;
+        height: 88vh !important;
+    }
+    .say-slider-section-box h5 {
+        font-size: 12px;
+        line-height: 27px;
+        color: #2C2C2C;
+        font-weight: 400;
+    }
+    .say-slider-section-box h5 {
+        font-size: 12px;
+        line-height: 27px;
+        color: #2C2C2C;
+        font-weight: 400;
+    }
+    .say-slider-section-box p {
+        text-align: center;
+        color: #808080;
+        font-size: 8px;
+        line-height: 14px;
+        font-weight: 400;
+        width: 100%;
+        margin-left: 0% !important;
+    }
+    .say-slider-section-arrow-button-1 {
+        position: absolute;
+        width: 53px;
+        height: 53.28px;
+        border-radius: 50%;
+        background-color: #FFF;
+        left: 79px;
+        top: -8px;
+        transition: 0.3s;
+    }
+    .say-slider-section-arrow-button-2 {
+        position: absolute;
+        width: 53px;
+        height: 53.28px;
+        border-radius: 50%;
+        background-color: #FFF;
+        left: 146px;
+        top: -8px;
+    }
+    .owl-theme .owl-dots, .owl-theme .owl-nav {
+        text-align: center;
+        -webkit-tap-highlight-color: transparent;
+        display: none;
+    }
+    .footer-bg {
+        background-image: url(../Images/footer-bg.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100% !important;
+        width: 100% !important;
+    }
+    .subscribe-with-us-section-title h2, .what-they-say-title h2, .footer-section-title h2 {
+        font-size: 15px;
+        line-height: 27px;
+        font-weight: 600;
+        color: #2C2C2C;
+    }
+    .subscribe-with-us-section-title p, .what-they-say-title p, .footer-section-title p {
+        color: #808080;
+        font-size: 10px;
+        line-height: 15px;
+        font-weight: 400;
+        width: 100%;
+        margin-left: 0% !important;
+    }
+    input[type="email"] {
+        width: 66%;
+        height: 100%;
+        border-radius: 5px;
+        background: #FFFFFF;
+        border: none;
+        outline: none;
+        opacity: 0.8;
+        color: #2C2C2C;
+        padding: 10px 15px;
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+    .footer-section-form a {
+        text-decoration: none;
+        color: #FFFFFF;
+        width: 38%;
+        height: 39px;
+        background: #CC8663;
+        border-radius: 4px;
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 500;
+        letter-spacing: -0.5px;
+        /* padding: 10px 15px 10px 44px; */
+        margin: 10px auto !important;
+        display: block;
+        padding: 8px 5px 0 0;
+    }
+    .footer-section-form {
+        display: block !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 10px 0;
+    }
+    .footer-section-form {
+        display: block !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 10px 0;
+    }
+    .footer-section-sub-image-2 {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 3px solid #CC8663;
+        right: 37px;
+        bottom: 182px;
+        top: 21px;
+    }
+    .footer-section-sub-image-3 {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 1px solid #CC8663;
+        right: 31px;
+        bottom: -62px;
+    }
+    .footer-section-sub-image-1 {
+        position: absolute;
+        content: url(../Images/footer-vector-1.png);
+        left: 39px;
+        bottom: -140px;
+        width: 17%;
+    }
+    .footer-section-navbar-logo h3 {
+        font-size: 14px;
+        line-height: 20px;
+        width: 100%;
+    }
+    .footer-section-nav-links ul li {
+        display: inline-block;
+        width: 100%;
+    }
+    .footer-section-nav-links ul li a {
+        font-size: 10px;
+        color: #e1e1e1;
+        margin-left: 5px;
+    }
+    .footer-section-nav-links ul {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    .let-us-skill-shoot-section-about-bullet-paragraph-1, .let-us-skill-shoot-section-about-bullet-paragraph-2 {
+        width: 208% !important;
+    }
+    
+    .new-year-discount-total-area-small-image-5 {
+        right: 60px;
+        top: -223px;
+    }
+    .new-year-discount-total-area-information-texts a {
+        color: #FFF;
+        text-decoration: none;
+        background: #245D51;
+        width: 231px !important;
+        height: 60px !important;
+        padding: 15px 25px 15px 25px;
+        border-radius: 4px;
+        margin-top: 7px;
+        margin-left: 24px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .header-hero-section-small-image-1 {
+        top: -444px;
+        left: 7px;
+    }
+    .improve-your-skills-section-sub-image-1 {
+        position: absolute;
+        width: 26.88px;
+        height: 26.88px;
+        background: #CB8461;
+        rotate: 15deg;
+        bottom: -74px;
+        right: 37px;
+    }
+    .improve-your-skills-section-sub-image-1-side-image {
+        position: absolute;
+        width: 26.88px;
+        height: 26.88px;
+        border: 1px solid #CB8461;
+        rotate: 15deg;
+        top: 51px;
+        right: 45px;
+    }
+    .new-year-discount-total-area-information-texts {
+        margin-bottom: 228px !important;
+        text-align: center;
+        padding:0px;
+
+    }
+    .new-year-discount-total-area-small-image-6 {
+        top: -399px !important;
+        left: 2px !important;
+    }
+    .new-year-discount-total-area-small-image-5 {
+        right: 2px;
+        top: -228px;
+    }
+    .header-hero-section-total-text-area-paragraph-text p{
+        width:100%;
+    }
+    .header-hero-section-small-image-1 {
+        top: -413px;
+        left: 15px;
+    }
+    .new-year-discount-total-area-small-image-5 {
+        right: 2px;
+        top:-182px;
+    }
+    .new-year-discount-total-area-small-image-6 {
+        top: -63px !important;
+        left: 1px !important;
+    }
+    .new-year-discount-total-area-small-image-5 {
+        right: 2px !important;
+        top: -207px !important;
+    }
+    .popular-courses-of-week-section-text-area {
+        padding: 100px 0 0 0;
+    }
+    .let-us-skill-shoot-section-about-bullet-paragraphs p {
+        font-size: 12px;
+        line-height: 30px;
+        font-weight: 600;
+        color: #2C2C2C;
+    }
+    .improve-your-skills-section-sub-image-2 {
+        bottom: 78px !important;
+        right: 289px !important;
+    }
+    .improve-your-skills-section-sub-image-1{
+        bottom: -38px !important;
+        right:-16px !important;
+    }
+    .improve-your-skills-section-sub-image-1-side-image{
+        top: 15px !important;
+        right: -8px !important;
+    }
+    .subscribe-with-us-section-title h2, .what-they-say-title h2, .footer-section-title h2{
+        font-size:18px !important;
+    }
+    a.choose-plan-btn {
+        background-color: #FED1BA;
+        font-size: 12px;
+        line-height: 30px;
+        font-weight: 600;
+        margin-left: 0px !important;
+        width: 207px !important;
+        height: 45px !important;
+    }
+    .footer-section-title h2{
+    font-size: 18px !important;
+    line-height: 27px;
+    color: #FFF;
+    width: 100%;
+    }
+    .say-slider-section-arrow-button-2{
+        left:174px;
+    }
+    .say-slider-section-arrow-button-1{
+        left:112px;
+    }
+    section.what-they-say-section{
+        height: 68vh !important;
+    }
+    .footer-section-navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 130px;
+        margin-top: 22px;
+        flex-direction:column-reverse;
+    }
+    .footer-section-nav-links ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-section-nav-links ul li a{
+        margin-right: 152px !important;
+    }
+    .footer-section-navbar-logo h3 {
+        font-size: 14px;
+        line-height: 20px;
+        width: 75px;
+        margin-left: -112px;
+        margin-top: 8px;
+    }
+    .footer-section-title p{
+        width: 261px;
+        margin-left: 3rem !important;
+    }
+    .improve-your-skills-section-button-area {
+        position: relative;
+    }
+    a.subscribe-course-btn {
+        position: absolute;
+        top: 61px;
+        right: 73px;
+        padding-left:25px;
+    }
+    a.join-now-btn {
+        position: absolute;
+        top: 0px;
+        right: 112px;
+        padding-left:23px;
+    }
+    .improve-your-skills-section{
+        height: 43vh !important;
+    }
+    .improve-your-skills-section-sub-image-1 {
+        top: 152px !important;
+        right: 9px !important;
+    }
+    .improve-your-skills-section-sub-image-1-side-image {
+        top: 33px !important;
+        right: 9px !important;
+    }
+    .popular-courses-of-week-section-arrow-button-2-bg-image {
+        top: 395px !important;
+        right: 0px !important;
+        width: 57px !important;
+        height: 57px !important;
+    }
+    .popular-courses-of-week-section-arrow-button-2-bg-side-image{
+        right: 4px;
+        top: 397px;
+        width:48px;
+        height:48px;
+    }
+    .popular-courses-of-week-section-arrow-button-1-bg-image {
+        width: 57px;
+        height: 57px;
+        top: 396px;
+        left: -8px;
+    }
+    .popular-courses-of-week-section-arrow-button-1-bg-side-image {
+        width: 48px;
+        height: 48px;
+        top: 401px;
+        left: -3px;
+    }
+    header.header-section{
+        min-height: 78.5vh !important;
+    }
+    footer.footer-section {
+        text-align: center;
+    }
+    section.what-they-say-section {
+        min-height: 75vh !important;
+    }
+    .subscribe-with-us-section {
+        margin: 50px 0px 32px 0;
+    }
+    .improve-your-skills-section-sub-image-1-side-image {
+        top: 156px !important;
+        right: 16px !important;
+    }
+    .improve-your-skills-section-sub-image-2 {
+        /* bottom: 78px !important; */
+        right: 289px !important;
+        top: -13px;
     }
   
 }
@@ -1795,7 +2763,19 @@
     .subscribe-with-us-section {
         margin: 50px 0px 32px 0;
     }
-    @media only screen and (max-width:428px) {
+    .improve-your-skills-section-sub-image-1-side-image {
+        top: 156px !important;
+        right: 15px !important;
+    }
+    section.what-they-say-section {
+        min-height: 70vh !important;
+    }
+    .popular-courses-of-week-section-arrow-button-2-bg-side-image {
+        right: 5px !important;
+        top: 399px !important;
+    }
+}
+    /* @media only screen and (max-width:428px) {
         .header-hero-section-total-text-area-heading-text h1 {
             width: 21rem;
             margin-left: 1.5rem;
@@ -1893,5 +2873,110 @@
             width: 17rem;
             margin-left: 4rem;
         }
+        .improve-your-skills-section-sub-image-2 {
+            top: -13px;
+            left: 0px;
+        }
+        .improve-your-skills-section {
+            height: 63vh !important;
+        }
+        .improve-your-skills-section-sub-image-1-side-image {
+            top: 155px !important;
+            right: 15px !important;
+        }
+        .subscribe-with-us-section-title p, .what-they-say-title p, .footer-section-title p {
+            font-size: 12px;
+            line-height: 30px;
+            width: 17rem;
+            margin-left: 3rem !important;
+        }
+        .subscribe-with-us-section {
+            margin: 38px 0px 32px 0;
+        }
+        .subscribe-with-us-section-box {
+            width: 276.79px !important;
+            height: 455px !important;
+            transition: 0.3s;
+            margin-left: 3rem;
+        }
+        .subscribe-with-us-section-title p, .what-they-say-title p, .footer-section-title p {
+            font-size: 12px;
+            line-height: 30px;
+            width: 16rem;
+            margin-left: 4.2rem !important;
+        }
+        .what-they-say-title {
+            margin: 51px 0 30px 0;
+        }
+        section.what-they-say-section {
+            height: 100vh !important;
+        }
+        .say-slider-section-arrow-button-2 {
+            left: 146px;
+            top: 2px;
+        }
+        .say-slider-section-arrow-button-1 {
+            left: 124px !important;
+            top: 3px;
+        }
+        .say-slider-section-box h5 {
+            font-size: 18px;
+            line-height: 27px;
+        }
+        .say-slider-section-box p {
+            text-align: center;
+            color: #808080;
+            font-size: 12px;
+            line-height: 30px;
+            font-weight: 400;
+            width: 100%;
+            margin-left: 0% !important;
+        }
+        section.what-they-say-section {
+            height: 128vh !important;
+        }
+        .footer-section-title h2 {
+            font-size: 18px !important;
+            line-height: 27px;
+            width: 17rem;
+            margin-left: 4rem;
+        }
+        .footer-section-title p {
+            font-size: 12px;
+            line-height: 30px;
+            width: 19rem;
+        }
+        input[type="email"] {
+            font-size: 12px;
+            line-height: 30px !important;
+        }
+        .footer-section-form a {
+            width: 151px;
+            height: 30px;
+            padding: 7px 18px 36px 15px !important;
+            margin: 10px auto !important;
+            display: block;
+        }
+        .footer-section-sub-image-1 {
+            left: 54px;
+            bottom: -88px;
+            width: 50.37px;
+            height: 32.81px;
+        }
+        .footer-section-sub-image-2 {
+            right: 63px;
+            top: -6px;
+        }
+        .footer-section-sub-image-3 {
+            right: 53px;
+            bottom: -35px;
+        }
+        .footer-section-navbar-logo h3 {
+            font-size: 20px;
+            line-height: 30px;
+            width: 108px;
+            margin-left: -129px;
+            margin-top: 0.9rem;
+        }
     }
-}
+ */
